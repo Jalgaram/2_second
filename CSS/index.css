@@ -1,0 +1,194 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul, ol, li{list-style: none; margin: 0; padding: 0;}
+a{text-decoration: none;}
+
+#wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 헤더[메뉴] */
+header{
+    width: 100%;
+    height: 116px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 116px;
+    background-color: #333;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.left_header{
+    height: 116px;
+}
+.left_header .aa{
+    width: 159px;
+    height: 99px;
+    margin: 8.5px 5px;
+}
+.left_header .b{
+    margin-bottom: 8.5px;
+}
+
+.header_nav ul{
+    display: flex;
+}
+.header_nav a{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+.right_header{
+    display: flex;
+}
+.right_header ul{
+    display: flex;
+}
+.right_header a{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+header .b:hover{opacity: 0.5;}
+header .header_nav a:hover{opacity: 0.4;}
+header .right_header a:hover{opacity: 0.4;}
+
+
+/* 슬라이더 */
+#slider{
+    max-width: 100%;
+    height: 822px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#slider::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/2_second/2_slider/RIIZE1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#slider p{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 150px;
+    text-shadow: 15px 4px #000;
+    margin-top: 2%;
+    text-align: center;
+}
+
+/* 인기음악 */
+#music{
+    width: 1542px;
+    height: 1015px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+#music p{
+    width: 1920px;
+    height: 0;
+    margin: 5% 0;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 120px;
+    text-align: center;
+}
+
+.musicbox{
+    width: 1920px;
+    height: 488px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.musicbox a{
+    width: 488px;
+    height: 488px;
+    position: relative;
+    background-color: lightcyan;
+}
+.photo{
+    width: 100%;
+    height: 488px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 앨범 */
+#album{
+    width: 1280px;
+    height: 2625px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+/* 라이즈2 */
+#riize2{
+    width: 100%;
+    height: 882px;
+    margin: 0 auto;
+    background-color: antiquewhite ;
+}
+
+/* 멤버 */
+#member{
+    width: 1280px;
+    height: 1830px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+/* 푸터 */
+footer{
+    width: 100%;
+    height: 462px;
+    margin: 0 auto;
+    background-color: #333;
+    opacity: 0.7;
+}
