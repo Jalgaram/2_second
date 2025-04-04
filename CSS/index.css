@@ -143,6 +143,7 @@ header .right_header a:hover{opacity: 0.4;}
 .musicbox{
     width: 1920px;
     height: 488px;
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
