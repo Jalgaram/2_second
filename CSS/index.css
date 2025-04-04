@@ -82,7 +82,7 @@ header .right_header a:hover{opacity: 0.4;}
 
 
 /* 슬라이더 */
-#slider{
+#slider1{
     max-width: 100%;
     height: 822px;
     margin: 0 auto;
@@ -92,21 +92,21 @@ header .right_header a:hover{opacity: 0.4;}
     align-items: center;
     text-align: center;
 }
-#slider::before{
+#slider1::before{
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/2_second/2_slider/RIIZE1.png);
+    background-image: url(../2_slider/RIIZE1.png);
     background-repeat: no-repeat;
     background-position: center;
     z-index: -1;
     opacity: 0.9;
 }
 
-#slider p{
+#slider1 p{
     color: #fff;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -125,10 +125,11 @@ header .right_header a:hover{opacity: 0.4;}
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    background-color: antiquewhite;
 }
 
 #music p{
-    width: 1920px;
+    width: 100%;
     height: 0;
     margin: 5% 0;
     color: #333;
@@ -140,29 +141,34 @@ header .right_header a:hover{opacity: 0.4;}
     text-align: center;
 }
 
-.musicbox{
-    width: 1920px;
+.slider_wrap{
+    width: 100%;
+    max-width: 1542px;
     height: 488px;
     position: relative;
-    display: flex;
-    justify-content: space-between;
+    overflow: hidden;
 }
 
-.music-small{
+.slider{
+    display: flex;
+    gap: 40px;
+    width: fit-content;
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
+}
+.slider a{
     width: 488px;
     height: 488px;
-    position: relative;
     display: flex;
-    align-items: end;
-    justify-content: center;
+    align-items:flex-end;
     background-position: center;
     background-size: cover;
-    background-color: lightcyan;
-    text-align: center;
+    flex-shrink: 0;
+    background-color: azure;
 }
 
 .textbox{
-    width: 488px;
+    width: 100%;
     height: 137px;
     position: relative;
     display: flex;
@@ -171,16 +177,18 @@ header .right_header a:hover{opacity: 0.4;}
 }
 .textbox::before{
     content: "";
+    position: absolute;
     left: 0;
     bottom: 0;
-    position: absolute;
     width: 100%;
-    height: 137px;
+    height: 100%;
     background-color: #333;
     opacity: 0.7;
+    z-index: 2;
 }
 .textbox span{
     position: absolute;
+    z-index: 3;
     color: #fff;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -188,19 +196,7 @@ header .right_header a:hover{opacity: 0.4;}
     font-style: normal;
     font-size: 40px;
     text-align: center;
-
 }
-
-.music-small button{
-    border-style: none;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    cursor: pointer;
-}
-
-
 
 /* 앨범 */
 #album{
@@ -228,7 +224,7 @@ header .right_header a:hover{opacity: 0.4;}
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/2_second/2_slider/RIIZE2.png);
+    background-image: url(../2_slider/RIIZE2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
