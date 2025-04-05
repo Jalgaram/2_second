@@ -119,13 +119,13 @@ header .right_header a:hover{opacity: 0.4;}
 
 /* 인기음악 */
 #music{
-    width: 1542px;
-    height: 1015px;
+    width: 100%;
+    height: 1010px;
     margin: 0 auto;
+    position: relative;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: antiquewhite;
 }
 
 #music p{
@@ -141,61 +141,66 @@ header .right_header a:hover{opacity: 0.4;}
     text-align: center;
 }
 
-/* .slider_wrap{
-    width: 100%;
-    max-width: 1542px;
+.slider_wrap{
+    width: 1464px;
     height: 488px;
+    margin: 0 auto;
     position: relative;
     overflow: hidden;
 }
 
-.slider{
-    display: flex;
-    gap: 40px;
-    width: fit-content;
-    position: absolute;
-}
-.slider a{
+.slide{width: 200%;}
+.slide li{
     width: 488px;
     height: 488px;
-    display: flex;
-    align-items:flex-end;
-    background-position: center;
-    background-size: cover;
-    flex-shrink: 0;
-    background-color: azure;
+    float: left;
+    position: relative;
 }
+.slide img{width: 100%; height: 100%;}
+
+#music > span{
+    position: absolute;
+    top: 60%;
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80px;
+    cursor: pointer;
+    background-color:  rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    opacity: 0.6;
+    transform: translateY(-50%);
+}
+.prev{left: 2%;}
+.next{right: 2%;}
 
 .textbox{
     width: 100%;
     height: 137px;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.textbox::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #333;
-    opacity: 0.7;
-    z-index: 2;
-}
-.textbox span{
-    position: absolute;
-    z-index: 3;
+.textbox > span{
     color: #fff;
+    text-align: center;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 40px;
-    text-align: center;
-} */
+}
 
 /* 앨범 */
 #album{
@@ -207,7 +212,7 @@ header .right_header a:hover{opacity: 0.4;}
 
 /* 라이즈2 */
 #riize2{
-    width: 100%;
+    max-width: 100%;
     height: 882px;
     margin: 0 auto;
     position: relative;

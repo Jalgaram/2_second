@@ -64,55 +64,64 @@
                 <p>POPULAR MUSIC</p>
                 
                 <div class="slider_wrap">
-                        <ul>
-                            <li>
-                                <a href=""></a>
-                                <a href=""></a>
-                                <a href=""></a>
-                            </li>
-                            <li></li>
-                        </ul>
-                        <!-- <a style="background-image: url(./4_Album/RIIZING_1st.jpg)" href="#">
-                            <div class="textbox">
-                                <span>Boom Boom Bass
-                                <br>2024.06.17</span>
-                            </div>
-                        </a>
+                    <ul class="slide">
+                        <li>
+                            <a href="#">
+                                <img src="4_Album/siren.jpg" alt="붐붐베">
+                                <div class="textbox">
+                                    <span>Boom Boom Bass<br>2024.06.17</span>
+                                </div>
+                            </a>
+                        </li>
 
-                        <a style="background-image: url(./4_Album/Love119.jpg);" href="#">
-                            <div class="textbox">
-                                <span>Love 119
-                                <br>2024.01.05</span>
-                            </div>
+                        <li>
+                            <a href="#">
+                                <img src="4_Album/Love119.jpg" alt="러브119">
+                                <div class="textbox">
+                                    <span>Love119<br>2024.01.05</span>
+                                </div>
+                            </a>
+                        </li>
 
-                        <a style="background-image: url(./4_Album/GetAGuitar.jpg);" href="#">
-                            <div class="textbox">
-                                <span>Get A Guitar
-                                <br>2023.09.04</span>
-                            </div>
-                        </a>
+                        <li>
+                            <a href="#">
+                                <img src="4_Album/GetAGuitar.jpg" alt="겟어기타">
+                                <div class="textbox">
+                                    <span>Get A Guitar<br>2023.09.04</span>
+                                </div>
+                            </a>
+                        </li>
 
-                        <a style="background-image: url(./4_Album/Hug.jpg);" href="#">
-                            <div class="textbox">
-                                <span>Hug (포옹)
-                                <br>2025.01.08</span>
-                            </div>
-                        </a>
+                        <li>
+                            <a href="#">
+                                <img src="4_Album/Hug.jpg" alt="허그">
+                                <div class="textbox">
+                                    <span>Hug (포옹)<br>2025.01.08</span>
+                                </div>
+                            </a>
+                        </li>
 
-                        <a style="background-image: url(./4_Album/siren.jpg);" href="#">
-                            <div class="textbox">
-                                <span>Siren
-                                <br>2024.06.17</span>
-                            </div>
-                        </a>
+                        <li>
+                            <a href="#">
+                                <img src="4_Album/siren.jpg" alt="사이렌">
+                                <div class="textbox">
+                                    <span>Siren<br>2024.06.17</span>
+                                </div>
+                            </a>
+                        </li>
 
-                        <a style="background-image: url(./4_Album/Impossible.jpg);" href="#">
-                            <div class="textbox">
-                                <span>Impossible
-                                <br>2024.04.18</span>
-                            </div>
-                        </a> -->
+                        <li>
+                            <a href="#">
+                                <img src="4_Album/Impossible.jpg" alt="임파서블">
+                                <div class="textbox">
+                                    <span>Impossible<br>2024.04.18</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+                <span class="prev">&lt;</span>
+                <span class="next">&gt;</span>
             </div>
             
             <!-- 앨범 -->
@@ -133,5 +142,21 @@
             <!-- 푸터 -->
             <footer></footer>
         </div>
+
+    <!-- 제이쿼리 -->
+        <script>
+            $(".prev").click(function(){
+                $(".slide").stop().animate({marginLeft:"-33.33%"}, 800, function(){
+                    $(".slide li:first").appendTo(".slide");
+                    $(".slide").css("margin-left", "0%");
+                });
+            });
+
+            $(".next").click(function(){
+                $(".slide li:last").prependTo(".slide");
+                $(".slide").css("margin-left", "-33.33%");
+                $(".slide").stop().animate({marginLeft:"0%"}, 800)
+            });
+        </script>
     </body>
 </html>
