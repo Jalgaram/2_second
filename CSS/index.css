@@ -108,7 +108,7 @@ header .right_header a:hover{opacity: 0.4;}
 
 /* 인기음악 */
 #music{
-    width: 100%;
+    width: 1900px;
     height: 1000px;
     margin: 0 auto;
     position: relative;
