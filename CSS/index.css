@@ -109,19 +109,19 @@ header .right_header a:hover{opacity: 0.4;}
 /* 인기음악 */
 #music{
     width: 100%;
-    height: 1010px;
+    height: 1000px;
     margin: 0 auto;
     position: relative;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
 }
 
-#music p{
+#music > p{
     width: 100%;
-    height: 0;
-    margin: 5% 0;
     color: #333;
+    margin-top: 3%;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -136,6 +136,7 @@ header .right_header a:hover{opacity: 0.4;}
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    margin-bottom: 5%;
 }
 
 .slide{width: 200%;}
@@ -161,7 +162,7 @@ header .right_header a:hover{opacity: 0.4;}
 }
 .prev{left: 3%; padding-top: 10px; padding-right: 10px;}
 .prev img{width: 80px;}
-.next{right: 3%; padding-top: 10px; padding-left: 10px;}
+.next{right: 3%; padding-top: 10px; padding-left: 15px;}
 .next img{width: 80px;}
 
 .textbox{
@@ -192,6 +193,18 @@ header .right_header a:hover{opacity: 0.4;}
     height: 2625px;
     margin: 0 auto;
     background-color: aliceblue;
+}
+#album > p{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 120px;
+    text-align: center;
 }
 
 /* 라이즈2 */
