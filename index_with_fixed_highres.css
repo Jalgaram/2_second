@@ -42,7 +42,6 @@ header{
 .header_nav a{
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
     font-size: 25px;
@@ -58,7 +57,6 @@ header{
 .right_header a{
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -98,7 +96,6 @@ header .right_header a:hover{opacity: 0.4;}
 #slider1 p{
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 150px;
@@ -123,7 +120,6 @@ header .right_header a:hover{opacity: 0.4;}
     color: #333;
     margin-top: 3%;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 120px;
@@ -181,7 +177,6 @@ header .right_header a:hover{opacity: 0.4;}
     color: #fff;
     text-align: center;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 40px;
@@ -204,7 +199,6 @@ header .right_header a:hover{opacity: 0.4;}
     margin-bottom: 8%;
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 120px;
@@ -237,7 +231,6 @@ header .right_header a:hover{opacity: 0.4;}
 .title2 > a > span{
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 50px;
@@ -250,7 +243,6 @@ header .right_header a:hover{opacity: 0.4;}
     display: inline;
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -258,7 +250,6 @@ header .right_header a:hover{opacity: 0.4;}
 .title2 > .smallriize{
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -269,7 +260,6 @@ header .right_header a:hover{opacity: 0.4;}
 .title > a > span{
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 50px;
@@ -282,7 +272,6 @@ header .right_header a:hover{opacity: 0.4;}
     display: inline;
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -290,7 +279,6 @@ header .right_header a:hover{opacity: 0.4;}
 .title > .smallriize{
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -324,7 +312,6 @@ header .right_header a:hover{opacity: 0.4;}
 #album > a{
     color: #FF7700;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 55px;
@@ -365,7 +352,6 @@ header .right_header a:hover{opacity: 0.4;}
     z-index: 3;
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 150px;
@@ -390,7 +376,6 @@ header .right_header a:hover{opacity: 0.4;}
     margin-bottom: 8%;
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 120px;
@@ -417,7 +402,6 @@ header .right_header a:hover{opacity: 0.4;}
 .memberbox > a > p {
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 38px;
@@ -430,7 +414,6 @@ header .right_header a:hover{opacity: 0.4;}
 #member > span{
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-size: 70px;
@@ -461,7 +444,6 @@ footer li{
 footer li > a{
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
@@ -477,7 +459,6 @@ footer a > img{
 footer > P{
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
@@ -485,3 +466,37 @@ footer > P{
 }
 
 /* 미디어쿼리 */
+@media (min-width: 1441px){
+    .b{width: 40px; height: auto;}
+    .header_nav a{
+        font-size: 30px;
+    }
+    .right_header a{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1441px) {
+    #wrap {
+        width: 1920px;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .b {
+        width: 40px;
+        height: auto;
+    }
+
+    .header_nav a {
+        font-size: 30px;
+    }
+
+    .right_header a {
+        font-size: 25px;
+    }
+}
