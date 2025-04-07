@@ -1,7 +1,7 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 body{background-color: #fff;}
 ul, ol, li{list-style: none; margin: 0; padding: 0;}
-a{text-decoration: none; color: #333;}
+a{text-decoration: none;}
 
 #wrap{
     width: 100%;
@@ -222,7 +222,7 @@ header .right_header a:hover{opacity: 0.4;}
 .albumbox{
     width: 613px;
     height: 1000px;
-    box-shadow: 5px 0 10px #333;
+    box-shadow: 10px 0 15px #333;
     background-color: #F6F6F6;
     text-align: center;
 }
@@ -412,7 +412,7 @@ header .right_header a:hover{opacity: 0.4;}
 }
 .memberbox > a > img{
     width: 100%;
-    box-shadow: 5px 0 10px #333;
+    box-shadow: 10px 0 15px #333;
 }
 .memberbox > a > p {
     color: #333;
@@ -448,4 +448,38 @@ footer{
     margin: 0 auto;
     background-color: #333;
     opacity: 0.7;
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    margin: 20px 10px;
+}
+footer li > a{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer a > img{
+    width: 412px;
+    height: 257px;
+    margin: 20px 0;
+}
+
+footer > P{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 15px 0;
 }
