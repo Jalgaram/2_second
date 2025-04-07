@@ -1,7 +1,7 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 body{background-color: #fff;}
 ul, ol, li{list-style: none; margin: 0; padding: 0;}
-a{text-decoration: none;}
+a{text-decoration: none; color: #333;}
 
 #wrap{
     width: 100%;
@@ -21,7 +21,7 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color:  rgba(3, 3, 3, 0.55);
-    z-index: 3;
+    z-index: 10;
 }
 
 .left_header{
@@ -109,7 +109,7 @@ header .right_header a:hover{opacity: 0.4;}
 /* 인기음악 */
 #music{
     width: 1900px;
-    height: 1000px;
+    height: 900px;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -192,12 +192,16 @@ header .right_header a:hover{opacity: 0.4;}
     width: 1280px;
     height: 2625px;
     margin: 0 auto;
-    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: start;
 }
 #album > p{
     width: 100%;
     height: auto;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
     color: #333;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -205,6 +209,129 @@ header .right_header a:hover{opacity: 0.4;}
     font-style: normal;
     font-size: 120px;
     text-align: center;
+}
+
+.albumbox-wrap{
+    width: 1280px;
+    height: 2056px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.albumbox{
+    width: 613px;
+    height: 1000px;
+    box-shadow: 5px 0 10px #333;
+    background-color: #F6F6F6;
+    text-align: center;
+}
+.albumbox a > img{
+    height: 600px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.albumbox a > img:hover{opacity: 0.7;}
+
+.title2{margin: 0 auto; padding: 5% 0;}
+.title2 > a > span{
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.title2 > p {
+    display: inline;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+.title2 > .smallriize{
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+.title{margin: 0 auto;}
+.title > a > span{
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.title > p {
+    display: inline;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+.title > .smallriize{
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.albumbox > img[alt="플레이바"]{margin-top: 5%;}
+
+.playbox{margin-top: 4%;}
+.playbox > button{
+    border-style: none;
+    background-color: transparent;
+    margin: 0 20px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+.skip > img[alt="왼쪽 스킵"]{margin-bottom: 5px;}
+.next-skip > img[alt="다음"]{margin-bottom: 5px;}
+
+
+.playbox > .stop1{display: none;}
+.playbox > .stop2{display: none;}
+.playbox > .stop3{display: none;}
+.playbox > .stop4{display: none;}
+
+.playbox > .no-sound1{display: none;}
+.playbox > .no-sound2{display: none;}
+.playbox > .no-sound3{display: none;}
+.playbox > .no-sound4{display: none;}
+
+#album > a{
+    color: #FF7700;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 55px;
+    border: 5px solid #FF7700;
+    margin-top: 8%;
+    padding: 5px 8%;
+    border-radius: 60px;
 }
 
 /* 라이즈2 */
@@ -250,8 +377,69 @@ header .right_header a:hover{opacity: 0.4;}
     width: 1280px;
     height: 1830px;
     margin: 0 auto;
-    background-color: aliceblue;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: start;
+    text-align: center;
 }
+
+#member > p{
+    width: 100%;
+    height: auto;
+    margin-bottom: 8%;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 120px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.memberbox{
+    width: 100%;
+    height: 1195px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.memberbox > a{
+    width: 357px;
+    height: 568px;
+}
+.memberbox > a > img{
+    width: 100%;
+    box-shadow: 5px 0 10px #333;
+}
+.memberbox > a > p {
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 50px;
+}
+.memberbox > a > img:hover{opacity: 0.7;}
+
+#member > span{
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 80px;
+    margin-top: 3%;
+}
+
 
 /* 푸터 */
 footer{
