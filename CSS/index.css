@@ -11,10 +11,12 @@ a{text-decoration: none;}
 /* 헤더[메뉴] */
 header{
     width: 100%;
+    max-width: 1920px;
     height: 116px;
     margin: 0 auto;
     position: fixed;
     left: 0;
+    right: 0;
     top: 0;
     display: flex;
     flex-flow: row wrap;
@@ -42,7 +44,6 @@ header{
 .header_nav a{
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
     font-size: 25px;
@@ -58,7 +59,6 @@ header{
 .right_header a{
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -69,10 +69,16 @@ header .b:hover{opacity: 0.5;}
 header .header_nav a:hover{opacity: 0.4;}
 header .right_header a:hover{opacity: 0.4;}
 
+.toggle{
+    border-style: none;
+    background-color: transparent;
+    display: none;
+}
 
 /* 슬라이더 */
 #slider1{
     width: 100%;
+    max-width: 1920px;
     height: 822px;
     margin: 0 auto;
     position: relative;
@@ -98,7 +104,6 @@ header .right_header a:hover{opacity: 0.4;}
 #slider1 p{
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 150px;
@@ -123,7 +128,6 @@ header .right_header a:hover{opacity: 0.4;}
     color: #333;
     margin-top: 3%;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 120px;
@@ -181,7 +185,6 @@ header .right_header a:hover{opacity: 0.4;}
     color: #fff;
     text-align: center;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 40px;
@@ -189,8 +192,8 @@ header .right_header a:hover{opacity: 0.4;}
 
 /* 앨범 */
 #album{
-    width: 1280px;
-    height: 2625px;
+    width: 1600px;
+    height: 2740px;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -204,7 +207,6 @@ header .right_header a:hover{opacity: 0.4;}
     margin-bottom: 8%;
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 120px;
@@ -212,11 +214,11 @@ header .right_header a:hover{opacity: 0.4;}
 }
 
 .albumbox-wrap{
-    width: 1280px;
-    height: 2056px;
+    width: 1600px;
+    height: 2106px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-content: space-between;
 }
 .albumbox{
@@ -237,7 +239,6 @@ header .right_header a:hover{opacity: 0.4;}
 .title2 > a > span{
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 50px;
@@ -250,7 +251,6 @@ header .right_header a:hover{opacity: 0.4;}
     display: inline;
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -258,7 +258,6 @@ header .right_header a:hover{opacity: 0.4;}
 .title2 > .smallriize{
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -269,7 +268,6 @@ header .right_header a:hover{opacity: 0.4;}
 .title > a > span{
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 50px;
@@ -282,7 +280,6 @@ header .right_header a:hover{opacity: 0.4;}
     display: inline;
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -290,7 +287,6 @@ header .right_header a:hover{opacity: 0.4;}
 .title > .smallriize{
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -324,7 +320,6 @@ header .right_header a:hover{opacity: 0.4;}
 #album > a{
     color: #FF7700;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 55px;
@@ -336,7 +331,8 @@ header .right_header a:hover{opacity: 0.4;}
 
 /* 라이즈2 */
 #riize2{
-    max-width: 100%;
+    width: 100%;
+    max-width: 1920px;
     height: 882px;
     margin: 0 auto;
     position: relative;
@@ -365,7 +361,6 @@ header .right_header a:hover{opacity: 0.4;}
     z-index: 3;
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 150px;
@@ -390,7 +385,6 @@ header .right_header a:hover{opacity: 0.4;}
     margin-bottom: 8%;
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 120px;
@@ -417,7 +411,6 @@ header .right_header a:hover{opacity: 0.4;}
 .memberbox > a > p {
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 38px;
@@ -430,7 +423,6 @@ header .right_header a:hover{opacity: 0.4;}
 #member > span{
     color: #333;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-size: 70px;
@@ -444,6 +436,7 @@ header .right_header a:hover{opacity: 0.4;}
 /* 푸터 */
 footer{
     width: 100%;
+    max-width: 1920px;
     height: 462px;
     margin: 0 auto;
     background-color: #333;
@@ -461,10 +454,9 @@ footer li{
 footer li > a{
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -477,7 +469,6 @@ footer a > img{
 footer > P{
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
