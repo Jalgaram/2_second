@@ -69,7 +69,12 @@ header .b:hover{opacity: 0.5;}
 header .header_nav a:hover{opacity: 0.4;}
 header .right_header a:hover{opacity: 0.4;}
 
-.toggle{
+.toggle1{
+    border-style: none;
+    background-color: transparent;
+    display: none;
+}
+.toggle2{
     border-style: none;
     background-color: transparent;
     display: none;
@@ -482,9 +487,79 @@ footer > P{
 
 /* 1024~1439px 소형+태블릿 가로*/
 @media (min-width: 1024px) and (max-width: 1439px){
+    #wrap{
+        width: 100%;
+        height: auto;
+    }
+    header, #slider1, #riize2, footer{
+        width: 100%;
+        max-width: 1439px;
+    }
+    #album, .albumbox-wrap, #member, .memberbox{
+        width: 100%;
+        max-width: 1200px;
+    }
+
+/* 헤더 */
+    header{
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+
+    .toggle2{display: none;}
+    .toggle1{
+        display: block;
+        cursor: pointer;
+        position: fixed;
+        top: 40px;
+        right: 15px;
+        z-index: 1000;
+    }
+    .toggle1 img{
+        width: 38px;
+    }
+
+    .left_header .logo{
+        width: 120px;
+        height: 75px;
+        margin: 7% 3px;
+    }
+    .left_header .b{
+        margin: 7% 0;
+    }
+
+    .header_nav{
+        margin-right: 3%;
+    }
+    .header_nav a{
+        font-size: 19px;
+        margin: 0 8px;
+    }
+
+    .right_header > nav{
+        display: block;
+        position: fixed;
+        right: -250px;;
+        width: 250px;
+        top: 0;
+        height: 100vh;
+        background-color: #333;
+        transition: right 0.3s ease;
+        z-index: 1000;
+        overflow-y: auto;
+    }
+    .right_header > nav.active{
+        right: 0;
+    }
+    .right_header > nav > ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 50%;
+        gap: 20px;
+    }
 
 }
-
 
 /* 1440~1674px */
 @media (min-width: 1440px) and (max-width: 1674px){
@@ -506,7 +581,7 @@ footer > P{
     .left_header .logo{
         width: 130px;
         height: 81px;
-        margin: 17px 0;
+        margin: 17px 5px;
     }
     .left_header .b{
         margin-bottom: 17px;
@@ -518,6 +593,9 @@ footer > P{
     .right_header a{
         font-size: 17px;
     }
+
+    .toggle1{display: none;}
+    .toggle2{display: none;}
 
 /* 슬라이더 + 중간 라이즈*/
     #slider1, #riize2{

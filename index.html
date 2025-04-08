@@ -52,7 +52,9 @@
                             <li><a href="#">MY</a></li>
                         </ul>
                     </nav>
-                    <button class="toggle"><img src="1_header/icon-menu.png" alt="카테고리"></button>
+
+                    <button class="toggle1"><img src="1_header/icon-menu.png" alt="카테고리"></button>
+                    <button class="toggle2"><img src="1_header/icon-menu.png" alt="카테고리"></button>
                 </div>
             </header>
 
@@ -324,6 +326,13 @@
 
     <!-- 제이쿼리 -->
         <script>
+            // 토글
+            $(function(){
+                $(".toggle1").click(function(){
+                    $(".right_header > nav").toggleClass('active');
+                });
+            });
+
             //슬라이드 
             $(".prev").click(function(){
                 $(".slide").stop().animate({marginLeft:"-33.33%"}, 800, function(){
