@@ -3,8 +3,10 @@ body{background-color: #fff;}
 ul, ol, li{list-style: none; margin: 0; padding: 0;}
 a{text-decoration: none;}
 
+
 #wrap{
     width: 100%;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -46,8 +48,8 @@ header{
     font-family: "Inter", sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 25px;
-    margin: 0 15px;
+    font-size: 1.3vw;
+    margin: 0 0.78vw;
 }
 
 .right_header{
@@ -61,8 +63,8 @@ header{
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 20px;
-    margin: 0 5px;
+    font-size: 1.04vw;
+    margin: 0 0.26vw;
 }
 
 header .b:hover{opacity: 0.5;}
@@ -84,7 +86,7 @@ header .right_header a:hover{opacity: 0.4;}
 #slider1{
     width: 100%;
     max-width: 1920px;
-    height: 822px;
+    height: 86.28vh;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -111,37 +113,36 @@ header .right_header a:hover{opacity: 0.4;}
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 150px;
+    font-size: 130px;
     text-shadow: 15px 4px #000;
     margin-top: 2%;
 }
 
 /* 인기음악 */
 #music{
-    width: 1900px;
-    height: 900px;
+    width: 100%;
+    height: 1000px;
     margin: 0 auto;
     position: relative;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+    align-content: space-evenly;
 }
 
 #music > p{
     width: 100%;
     color: #333;
-    margin-top: 3%;
+    margin: 3% 0;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 120px;
+    font-size: 130px;
     text-align: center;
 }
 
 .slider_wrap{
-    width: 1464px;
-    height: 488px;
+    width: 76.25vw;
+    height: 51.2vh;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -150,12 +151,17 @@ header .right_header a:hover{opacity: 0.4;}
 
 .slide{width: 200%;}
 .slide li{
-    width: 488px;
-    height: 488px;
+    width: 25.41vw;
+    /* aspect-ratio: 4 / 3; */
+    height: 51.2vh;
     float: left;
     position: relative;
 }
-.slide img{width: 100%; height: 100%;}
+.slide img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
 
 #music > span{
     position: absolute;
@@ -198,7 +204,7 @@ header .right_header a:hover{opacity: 0.4;}
 /* 앨범 */
 #album{
     width: 1600px;
-    height: 2740px;
+    height: 2700px;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -214,7 +220,7 @@ header .right_header a:hover{opacity: 0.4;}
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 120px;
+    font-size: 130px;
     text-align: center;
 }
 
@@ -337,7 +343,7 @@ header .right_header a:hover{opacity: 0.4;}
 #riize2{
     width: 100%;
     max-width: 1920px;
-    height: 882px;
+    height: 86.28vh;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -354,7 +360,6 @@ header .right_header a:hover{opacity: 0.4;}
     height: 100%;
     background-image: url(../2_slider/RIIZE2.png);
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
     z-index: -1;
@@ -367,7 +372,7 @@ header .right_header a:hover{opacity: 0.4;}
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 150px;
+    font-size: 130px;
     text-shadow: 15px 4px #000;
 }
 
@@ -391,14 +396,14 @@ header .right_header a:hover{opacity: 0.4;}
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 120px;
+    font-size: 130px;
     text-align: center;
     margin-top: 8%;
 }
 
 .memberbox{
     width: 100%;
-    height: 1195px;
+    height: 1060px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -432,7 +437,7 @@ header .right_header a:hover{opacity: 0.4;}
     text-align: center;
     margin-top: 5px;
     line-height: 80px;
-    margin-top: 3%;
+    margin-top: 13%;
 }
 
 
@@ -505,19 +510,6 @@ footer > P{
         margin: 0 auto;
     }
 
-    .toggle2{display: none;}
-    .toggle1{
-        display: block;
-        cursor: pointer;
-        position: fixed;
-        top: 40px;
-        right: 15px;
-        z-index: 1000;
-    }
-    .toggle1 img{
-        width: 38px;
-    }
-
     .left_header .logo{
         width: 120px;
         height: 75px;
@@ -530,11 +522,19 @@ footer > P{
     .header_nav{
         margin-right: 3%;
     }
-    .header_nav a{
-        font-size: 19px;
-        margin: 0 8px;
-    }
 
+    .toggle2{display: none;}
+    .toggle1{
+        display: block;
+        cursor: pointer;
+        position: fixed;
+        top: 5%;
+        right: 2%;
+        z-index: 1000;
+    }
+    .toggle1 img{
+        width: 38px;
+    }
     .right_header > nav{
         display: block;
         position: fixed;
@@ -542,7 +542,7 @@ footer > P{
         width: 250px;
         top: 0;
         height: 100vh;
-        background-color: #333;
+        background-color: rgba(3, 3, 3, 0.8);
         transition: right 0.3s ease;
         z-index: 1000;
         overflow-y: auto;
@@ -555,28 +555,37 @@ footer > P{
         flex-direction: column;
         align-items: flex-end;
         margin-top: 50%;
+        margin-right: 10%;
         gap: 20px;
     }
-
-/* 슬라이더 */
-    #slider1 > p,
-    #riize2 > p{
-        font-size: 130px;
+    .right_header > nav > ul > li > a{
+        font-size: 20px;
     }
 
+    /* 인기음악 */
+    #music{
+        width: 100%;
+        max-width: 1439px;
+    }
 }
 
-/* 1440~1674px */
-@media (min-width: 1440px) and (max-width: 1674px){
+
+/* 1440~1659px */
+@media (min-width: 1440px) and (max-width: 1659px){
     #wrap{
         width: 100%;
         height: auto;
     }
     header, #slider1, #riize2, footer{
-        max-width: 1674px;
+        max-width: 1659px;
     }
     #album, .albumbox-wrap, #member, .memberbox{
         max-width: 1400px;
+    }
+    #music > p, 
+    #album > p, 
+    #member > p{
+        font-size: 6.77vw;
     }
 
  /* 헤더 */
@@ -591,24 +600,20 @@ footer > P{
     .left_header .b{
         margin-bottom: 17px;
     }
-    .header_nav a{
-        font-size: 22px;
-        margin: 8px;
-    }
-    .right_header a{
-        font-size: 17px;
-    }
 
     .toggle1{display: none;}
     .toggle2{display: none;}
 
+    .header_nav a{
+        font-size: 20px;
+    }
+    .right_header a{
+        font-size: 15px;
+    }
+
 /* 슬라이더 + 중간 라이즈*/
     #slider1, #riize2{
         width: 100%;
-    }
-    #slider1 > p,
-    #riize2 > p{
-        font-size: 130px;
     }
 
 /* 인기음악 */
@@ -616,20 +621,26 @@ footer > P{
         width: 100%;
         height: 800px;
     }
-    #music > p{
-        font-size: 100px;
-        margin-top: 2.5%;
-    }
+
     .slider_wrap{
-        width: 1140px;
-        height: 380px;
+        width: 76.25vw;
+        height: 51.2vh;
     }
     .slide li{
-        width: 380px;
-        height: 380px;
+        width: 25.41vw;
+        height: 51.2vh;
+        aspect-ratio: 4 / 3;
+    }
+    .slide img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     .textbox{
-        height: 115px;
+        height: 12.06vh;
+    }
+    .textbox > span{
+        font-size: 2.2vw;
     }
     .prev{left: 2%;}
     .next{right: 2%;}
@@ -640,30 +651,27 @@ footer > P{
     margin: 0 auto;
     height: 2450px;
    }
-   #album > p{
-    font-size: 100px;
-   }
 
    .albumbox-wrap{
     width: 100%;
     height: auto;
-    justify-content: space-evenly;
+    flex-flow: wrap;
     gap: 90px
     ;
    }
    .albumbox{
-    width: 560px;
-    height: 900px;
+    width: 550px;
+    height: 880px;
+    margin: 0 auto;
    }
    .albumbox a > img{
-    width: 550px;
     height: 550px;
-    padding: 2% 1%;
+    padding: 1%;
    }
 
    .title2 > a > span,
    .title > a > span{
-    font-size: 45px;
+    font-size: 40px;
    }
 
    .title2 > p,
@@ -671,14 +679,39 @@ footer > P{
     font-size: 18px;
    }
 
+   .title2 > .smallriize,
+   .title > .smallriize{
+    font-size: 18px;
+   }
+
+   .title2 > a > span{
+    margin: 1.6%;
+   }
+   .title > a > span{
+    margin: 3%;
+   }
+   .albumbox > img[alt="플레이바"]{
+    width: 260px;
+   }
+   .playbox {
+    margin-top: 5%;
+   }
+   .playbox > button > img {
+    width: 3.6vw;
+   }
+  .playbox > button{
+    width: 3.6vw;
+  }
+  .skip > img[alt="왼쪽 스킵"]{margin-bottom: 0.1vh;}
+  .next-skip > img[alt="다음"]{margin-bottom: 0.1vh;}
+
+  #album > a{margin-top: 10%;}
+
 /* 맴버들 */
    #member{
     width: 100%;
     margin: 0 auto;
-    height: 1770px;
-   }
-   #member > p{
-    font-size: 100px;
+    height: 1800px;
    }
 
    .memberbox{
@@ -694,7 +727,10 @@ footer > P{
     .memberbox > a > p{
         font-size: 35px;
         margin-top: 10px;
-    }   
+    } 
+    #member > span{
+        margin-top: 4%;
+    }  
    
 /* 푸터 */
    footer{
