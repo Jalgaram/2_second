@@ -406,7 +406,7 @@ header .right_header a:hover{opacity: 0.4;}
 }
 .memberbox > a{
     width: 357px;
-    height: 568px;
+    height: 447px;
 }
 .memberbox > a > img{
     width: 100%;
@@ -422,7 +422,6 @@ header .right_header a:hover{opacity: 0.4;}
     margin-top: 5px;
     line-height: 50px;
 }
-.memberbox > a > img:hover{opacity: 0.7;}
 
 #member > span{
     color: #333;
@@ -559,6 +558,12 @@ footer > P{
         gap: 20px;
     }
 
+/* 슬라이더 */
+    #slider1 > p,
+    #riize2 > p{
+        font-size: 130px;
+    }
+
 }
 
 /* 1440~1674px */
@@ -600,7 +605,6 @@ footer > P{
 /* 슬라이더 + 중간 라이즈*/
     #slider1, #riize2{
         width: 100%;
-        height: 780px;
     }
     #slider1 > p,
     #riize2 > p{

@@ -261,42 +261,42 @@
 
                 <div class="memberbox">
                     <a href="#">
-                        <img src="3_Member/SHOTARO.png" alt="쇼타로">
+                        <img id="SHOTARO" src="3_Member/SHOTARO.png" alt="쇼타로">
                         <p>SHOTARO
                             <br>2000.11.25
                         </p>
                     </a>
 
                     <a href="#">
-                        <img src="3_Member/EUNSEOK.png" alt="은석">
+                        <img id="EUNSEOK" src="3_Member/EUNSEOK.png" alt="은석"> 
                         <p>EUNSEOK
                             <br>2001.03.19
                         </p>
                     </a>
 
                     <a href="#">
-                        <img src="3_Member/SUNGCHAN.png" alt="성찬">
+                        <img id="SUNGCHAN" src="3_Member/SUNGCHAN.png" alt="성찬">
                         <p>SUNGCHAN
                             <br>2001.09.13
                         </p>
                     </a>
 
                     <a href="#">
-                        <img src="3_Member/WONBIN.png" alt="원빈">
+                        <img id="WONBIN" src="3_Member/WONBIN.png" alt="원빈">
                         <p>WONBIN
                             <br>2002.03.02
                         </p>
                     </a>
 
                     <a href="#">
-                        <img src="3_Member/SOHEE.png" alt="소희">
+                        <img id="SOHEE" src="3_Member/SOHEE.png" alt="소희">
                         <p>SOHEE
                             <br>2003.11.21
                         </p>
                     </a>
 
                     <a href="#">
-                        <img src="3_Member/ANTON.png" alt="앤톤">
+                        <img id="ANTON" src="3_Member/ANTON.png" alt="앤톤">
                         <p>ANTON
                             <br>2004.03.21
                         </p>
@@ -324,16 +324,76 @@
             </footer>
         </div>
 
-    <!-- 제이쿼리 -->
+    
         <script>
-            // 토글
+// 자바스크립트
+    //멤버들
+            const SHOTARO = document.getElementById("SHOTARO");
+
+            SHOTARO.addEventListener("mouseover", function(){
+                SHOTARO.src="3_Member/SHOTARO2.png";
+            });
+            SHOTARO.addEventListener("mouseout", function(){
+                SHOTARO.src="3_Member/SHOTARO.png";
+            });
+
+            const EUNSEOK = document.getElementById("EUNSEOK");
+
+            EUNSEOK.addEventListener("mouseover", function(){
+                EUNSEOK.src="3_Member/EUNSEOK2.png";
+            });
+            EUNSEOK.addEventListener("mouseout", function(){
+                EUNSEOK.src="3_Member/EUNSEOK.png";
+            });
+
+            const SUNGCHAN = document.getElementById("SUNGCHAN");
+
+            SUNGCHAN.addEventListener("mouseover", function(){
+                SUNGCHAN.src="3_Member/SUNGCHAN2.png";
+            });
+            SUNGCHAN.addEventListener("mouseout", function(){
+                SUNGCHAN.src="3_Member/SUNGCHAN.png";
+            });
+
+            const WONBIN = document.getElementById("WONBIN");
+
+            WONBIN.addEventListener("mouseover", function(){
+                WONBIN.src="3_Member/WONBIN2.png";
+            });
+            WONBIN.addEventListener("mouseout", function(){
+                WONBIN.src="3_Member/WONBIN.png";
+            });
+
+            const SOHEE = document.getElementById("SOHEE");
+
+            SOHEE.addEventListener("mouseover", function(){
+                SOHEE.src="3_Member/SOHEE2.png";
+            });
+            SOHEE.addEventListener("mouseout", function(){
+                SOHEE.src="3_Member/SOHEE.png";
+            });
+
+            const ANTON = document.getElementById("ANTON");
+
+            ANTON.addEventListener("mouseover", function(){
+                ANTON.src="3_Member/ANTON2.png";
+            });
+            ANTON.addEventListener("mouseout", function(){
+                ANTON.src="3_Member/ANTON.png";
+            });
+
+
+            
+
+// 제이쿼리
+     // 토글
             $(function(){
                 $(".toggle1").click(function(){
                     $(".right_header > nav").toggleClass('active');
                 });
             });
 
-            //슬라이드 
+     //슬라이드 
             $(".prev").click(function(){
                 $(".slide").stop().animate({marginLeft:"-33.33%"}, 800, function(){
                     $(".slide li:first").appendTo(".slide");
@@ -347,7 +407,7 @@
                 $(".slide").stop().animate({marginLeft:"0%"}, 800)
             });
 
-            // 음소거 소리
+    // 음소거 소리
             $(".sound1").click(function(){
                 $(".sound1").hide();
                 $(".no-sound1").show();
@@ -384,7 +444,7 @@
                 $(".no-sound4").hide();
             });
 
-            // 재생 정지버튼
+     // 재생 정지버튼
             $(".play1").click(function(){
                 $(".play1").hide();
                 $(".stop1").show();
@@ -420,6 +480,8 @@
                 $(".play4").show();
                 $(".stop4").hide();
             });
+    
+    // 멤버들
 
         </script>
     </body>
