@@ -359,6 +359,7 @@ header .right_header a:hover{opacity: 0.4;}
     background-image: url(../2_slider/RIIZE2.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.9;
     z-index: -1;
 }
