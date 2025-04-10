@@ -1,0 +1,75 @@
+/* ~480px */
+@media (max-width: 480px){
+
+}
+
+
+
+/* 481px~1024 */
+@media (min-width: 481px) and (max-width: 1024px){
+
+}
+
+
+
+/* 1025px~1440px */
+@media (min-width: 1025px) and (max-width: 1440px){
+
+}
+
+
+
+/* 1441px~1619px */
+@media (min-width: 1441px) and (max-width: 1619px){
+    #wrap{
+        max-width: 1619px;
+        margin: 0 auto;
+        height: auto;
+    }
+    header, #slider1, #music, #riize2{
+        max-width: 100%;
+    }
+    
+    #album, .album-wrap{
+        max-width: 1400px;
+    }
+
+    #music, #album, #member{
+        height: auto;
+    }
+
+    #music > p,
+    #album > p,
+    #member > p{
+        font-size: 115px;
+    }
+
+    /* 헤더[메뉴] */
+    .left_header .logo{
+        width: 140px;
+        height: 87px;
+        margin: 15px 0;
+    }
+    .left_header .b{
+        width: 25px;
+        margin-bottom: 15px;
+    }
+
+    .header_nav a{
+        font-size: clamp(22px, 1.55vw, 24px);
+    }
+    .right_header a{
+        font-size: clamp(15px, 0.93vw,18px);
+    }
+
+    /* 인기음악 */
+
+    .slider_wrap{
+        width: 76.25vw;
+        height: 51.2vh;
+    }
+    .slide li{
+        width: 25.41vw;
+        height: 51.2vh;
+    }
+}
