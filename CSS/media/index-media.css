@@ -53,6 +53,7 @@
     }
     
     #album, .album-wrap{
+        max-width: 1400px;
     }
 
     #music, #album, #member{
