@@ -1,18 +1,18 @@
-/* ~480px */
+/*---------------- ~480px ----------------*/
 @media (max-width: 480px){
 
 }
 
 
 
-/* 481px~1024 */
+/*---------------- 481px~1024 ----------------*/
 @media (min-width: 481px) and (max-width: 1024px){
 
 }
 
 
 
-/* 1025px~1440px */
+/*---------------- 1025px~1440px ----------------*/
 @media (min-width: 1025px) and (max-width: 1440px){
     #wrap{
         max-width: 1440px;
@@ -23,8 +23,8 @@
         max-width: 100%;
     }
     
-    #album, .album-wrap{
-        max-width: 1400px;
+    #album, .album-wrap, #member{
+        max-width: 83.33vw;
     }
 
     #music, #album, #member{
@@ -34,24 +34,148 @@
     #music > p,
     #album > p,
     #member > p{
-        font-size: 100px;
+        font-size: 8vw;
     }
 
     /* 헤더 */
-    .left_header .b{
-        display: none;
+    .left_header .logo{
+        width: 9.29vw;
+        height: 11.12vh;
+        margin: 6.5% 0;
     }
-    .right_header {
-        display: none;
+    .left_header .b{
+        width: 1.95vw;
+        margin: 6.5% 0;
+    }
+
+    .header_nav a{
+        font-size: 1.64vw;
+    }
+
+    .right_header nav{
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 250px;
+        height: 100vh;
+        transition: right 0.4s;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .right_header > nav.active{
+        right: 0;
+    }
+    .right_header > nav ul{
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 40%;
+        margin-right: 15px;
+    }
+    .right_header > nav ul li a{
+        font-size: 25px;
     }
 
     .toggle{
+        display: block;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .toggle img{
+        width: 35px;
+    }
+
+    /* 인기음악 */
+    .slider_wrap{
+        width: 70.31vw;
+        height: 47.21vh;
+    }
+    .slide li{
+        width: 23.43vw;
+        height: 47.21vh;
+    }
+
+    #music > span{
+        width: 7vw;
+        height: 13.4vh;
+        top: 62%;
+    }
+    .prev{
+        left: 3%;
+        padding-left: 0.2%;
+    }
+    .prev img{
+        width: 5.5vw;
+    }
+    .next{
+        right: 3%;
+        padding-top: 0.7%; 
+        padding-left: 0.9%;
+    }
+    .next img{
+        width: 5.5vw;
+    }
+
+    .textbox{
+        height: 125px;
+    }
+    .textbox > span{
+        font-size: 2.5vw;
+    }
+
+    /* 앨범 */ 
+    .albumbox-wrap{
+        height: 1650px;
+        flex-flow: wrap;
+        background-color: coral;
+    }
+
+    .albumbox{
+        width: 34.72vw;
+        height: 780px;
+    }
+    .albumbox a > img{
+        width: 34.72vw;
+        height: 60.46vh;
+        padding: 1%;
+    }
+
+    .title > a > span,
+    .title2 > a > span{
+        font-size: 2.7vw;
+    }
+    .title > p,
+    .title2 > p,
+    .title > .smallriize,
+    .title2 > .smallriize{
+        font-family: 1.38vw;
+    }
+
+    img[alt="플레이바"]{
+        width: 17vw;
+    }
+
+    .playbox > button img{
+        width: 3.47vw;
+    }
+    .playbox > button{
+        width: 3.47vw;
+        height: 5.24vh;
+        margin: 0 1.05vw;
+    }
+    .skip > img[alt="왼쪽 스킵"],
+    .next-skip > img[alt="다음"]{
+        width: 3.125vw;
+        margin-bottom: 0.2vh;
+    }
+
+    #album > a{
+        font-size: 3.8vw;
+        padding: 0.5vh 8%;
     }
 }
 
 
 
-/* 1441px~1619px */
+/*---------------- 1441px~1619px ---------------- */
 @media (min-width: 1441px) and (max-width: 1619px){
     #wrap{
         max-width: 1619px;
@@ -62,7 +186,7 @@
         max-width: 100%;
     }
     
-    #album, .album-wrap{
+    #album, .album-wrap, #member{
         max-width: 1400px;
     }
 
@@ -95,7 +219,6 @@
     }
 
     /* 인기음악 */
-
     .slider_wrap{
         width: 76.25vw;
         height: 51.2vh;
@@ -104,4 +227,5 @@
         width: 25.41vw;
         height: 51.2vh;
     }
+
 }

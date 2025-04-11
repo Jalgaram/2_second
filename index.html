@@ -56,6 +56,7 @@
                     </nav>
 
                     <button class="toggle"><img src="1_header/icon-menu.png" alt="카테고리"></button>
+                    <button class="toggle2"><img src="1_header/icon-menu.png" alt="카테고리"></button>
                 </div>
             </header>
 
@@ -390,8 +391,14 @@
 // 제이쿼리
      // 토글
             $(function(){
-                $(".toggle1").click(function(){
-                    $(".right_header > nav").toggleClass('active');
+                $(".toggle").click(function(){
+                    $(".right_header > nav").toggleClass('active')
+                });
+            });
+
+            $(function(){
+                $(".toggle2").click(function(){
+                    $(".right_header > nav").toggleClass('active')
                 });
             });
 
