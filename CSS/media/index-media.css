@@ -37,6 +37,16 @@
         font-size: 100px;
     }
 
+    /* 헤더 */
+    .left_header .b{
+        display: none;
+    }
+    .right_header {
+        display: none;
+    }
+
+    .toggle{
+    }
 }
 
 

@@ -71,12 +71,7 @@ header .b:hover{opacity: 0.5;}
 header .header_nav a:hover{opacity: 0.4;}
 header .right_header a:hover{opacity: 0.4;}
 
-.toggle1{
-    border-style: none;
-    background-color: transparent;
-    display: none;
-}
-.toggle2{
+.toggle{
     border-style: none;
     background-color: transparent;
     display: none;
