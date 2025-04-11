@@ -231,7 +231,7 @@ header .right_header a:hover{opacity: 0.4;}
 }
 .albumbox{
     width: 613px;
-    height: 1000px;
+    height: auto;
     box-shadow: 10px 0 15px #333;
     background-color: #F6F6F6;
     text-align: center;
@@ -302,7 +302,7 @@ header .right_header a:hover{opacity: 0.4;}
 
 .albumbox > img[alt="플레이바"]{margin-top: 5%;}
 
-.playbox{margin-top: 4%;}
+.playbox{margin: 4% 0;}
 .playbox > button{
     border-style: none;
     background-color: transparent;
@@ -402,15 +402,20 @@ header .right_header a:hover{opacity: 0.4;}
 
 .memberbox{
     width: 100%;
-    height: 1060px;
+    height: auto;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
     justify-content: space-between;
-    align-content: space-between;
+    align-content: space-around;
 }
 .memberbox > a{
     width: 357px;
-    height: 447px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
 }
 .memberbox > a > img{
     width: 100%;
@@ -436,8 +441,7 @@ header .right_header a:hover{opacity: 0.4;}
     text-align: center;
     margin-top: 5px;
     line-height: 80px;
-    margin-top: 12%;
-    margin-bottom: 5%;
+    margin: 5%;
 }
 
 

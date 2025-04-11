@@ -23,11 +23,16 @@
         max-width: 100%;
     }
     
-    #album, .album-wrap, #member{
+    #album, 
+    .album-wrap, 
+    #member,
+    .memberbox{
         max-width: 83.33vw;
     }
 
-    #music, #album, #member{
+    #music, 
+    #album, 
+    #member{
         height: auto;
     }
 
@@ -123,14 +128,13 @@
 
     /* 앨범 */ 
     .albumbox-wrap{
-        height: 1650px;
-        flex-flow: wrap;
-        background-color: coral;
+        height: auto;
+        row-gap: 6.25vw;
     }
 
     .albumbox{
         width: 34.72vw;
-        height: 780px;
+        height: auto;
     }
     .albumbox a > img{
         width: 34.72vw;
@@ -170,6 +174,24 @@
     #album > a{
         font-size: 3.8vw;
         padding: 0.5vh 8%;
+    }
+
+    /* 멤버 */
+    .memberbox{
+        height: auto;
+    }
+    .memberbox > a{
+        width: 24.79vw;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .memberbox > a > p{
+        font-size: 2.77vw;
+    }
+    #member > span{
+        margin: 5%;
+        font-size: 4.86vw;
+        line-height: 10vh;
     }
 }
 
