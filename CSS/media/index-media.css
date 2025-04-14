@@ -7,7 +7,71 @@
 
 /*---------------- 481px~1024 ----------------*/
 @media (min-width: 481px) and (max-width: 1024px){
+    #wraip{
+        max-width: 1024px;
+        height: auto;
+        margin: 0 auto;
+    }
 
+    header, 
+    #slider1, 
+    #music, 
+    #riize2, 
+    footer{
+        max-width: 100%;
+    }
+
+    #album, 
+    .album-wrap, 
+    #member,
+    .memberbox{
+        max-width: 83.33vw;
+    }
+
+    #music, 
+    #album, 
+    #member,
+    footer{
+        height: auto;
+    }
+
+    #music > p,
+    #album > p,
+    #member > p{
+        font-size: 8vw;
+    }
+
+    #slider1,
+    #riize2{
+        height: 65vh;
+    }
+    #slider1 > p,
+    #riize2 > p{
+        font-size: 95px;
+    }
+
+    /* 헤더 */
+    .header_nav,
+    .right_header > nav{
+        display: none;
+    }
+ 
+    header{
+        justify-content: center;
+    }
+
+    .toggle2{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        bottom: 0;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .toggle2 > img{
+        width: 35px;
+    }
 }
 
 
@@ -16,9 +80,10 @@
 @media (min-width: 1025px) and (max-width: 1440px){
     #wrap{
         max-width: 1440px;
-        margin: 0 auto;
         height: auto;
+        margin: 0 auto;
     }
+
     header, 
     #slider1, 
     #music, 
@@ -87,7 +152,7 @@
         flex-direction: column;
         align-items: flex-end;
         margin-top: 40%;
-        margin-right: 15px;
+        margin-right: 10px;
     }
     .right_header > nav ul li a{
         font-size: 25px;

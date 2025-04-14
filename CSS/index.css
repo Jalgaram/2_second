@@ -67,6 +67,10 @@ header{
     margin: 0 0.26vw;
 }
 
+.mobile_menu{
+    display: none;
+}
+
 header .b:hover{opacity: 0.5;}
 header .header_nav a:hover{opacity: 0.4;}
 header .right_header a:hover{opacity: 0.4;}

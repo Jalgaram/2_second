@@ -45,6 +45,7 @@
                         <li><a href="#">Media</a></li>
                     </ul>
                 </nav>
+
                 <div class="right_header">
                     <nav>
                         <ul>
@@ -54,6 +55,22 @@
                             <li><a href="#">MY</a></li>
                         </ul>
                     </nav>
+
+                    <!-- 모바일용 네비 -->
+                    <div class="mobile_menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Member Profiles</a></li>
+                            <li><a href="#">Albums & Music</a></li>
+                            <li><a href="#">Merch & MD Info</a></li>
+                            <li><a href="#">Events & Schedule</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">LOGIN</a></li>
+                            <li><a href="#">JOIN</a></li>
+                            <li><a href="#">CART</a></li>
+                            <li><a href="#">MY</a></li>
+                        </ul>
+                    </div>
 
                     <button class="toggle"><img src="1_header/icon-menu.png" alt="카테고리"></button>
                     <button class="toggle2"><img src="1_header/icon-menu.png" alt="카테고리"></button>
@@ -398,7 +415,7 @@
 
             $(function(){
                 $(".toggle2").click(function(){
-                    $(".right_header > nav").toggleClass('active')
+                    $(".mobile_menu").toggleClass('active')
                 });
             });
 
