@@ -19,7 +19,11 @@
         margin: 0 auto;
         height: auto;
     }
-    header, #slider1, #music, #riize2{
+    header, 
+    #slider1, 
+    #music, 
+    #riize2, 
+    footer{
         max-width: 100%;
     }
     
@@ -32,7 +36,8 @@
 
     #music, 
     #album, 
-    #member{
+    #member,
+    footer{
         height: auto;
     }
 
@@ -40,6 +45,15 @@
     #album > p,
     #member > p{
         font-size: 8vw;
+    }
+
+    #slider1,
+    #riize2{
+        height: 75vh;
+    }
+    #slider1 > p,
+    #riize2 > p{
+        font-size: clamp(110px, 8.33vw, 120px);
     }
 
     /* 헤더 */
@@ -100,7 +114,7 @@
 
     #music > span{
         width: 7vw;
-        height: 13.4vh;
+        height: auto;
         top: 62%;
     }
     .prev{
@@ -112,7 +126,7 @@
     }
     .next{
         right: 3%;
-        padding-top: 0.7%; 
+        padding-top: 0.5%; 
         padding-left: 0.9%;
     }
     .next img{
@@ -192,6 +206,23 @@
         margin: 5%;
         font-size: 4.86vw;
         line-height: 10vh;
+    }
+
+    /* 푸터 */
+    footer li{
+        margin: 1.32vh 0.69vw;
+    }
+    footer li > a{
+        font-size: 1.73vw;
+    }
+    footer a > img{
+        width: 24.3vw;
+        height: 28.8vh;
+        margin: 2.64vh 0;
+    }
+    footer > P{
+        font-size: 1.38vw;
+        padding-bottom: 1.32vh;
     }
 }
 
