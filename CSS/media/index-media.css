@@ -1,13 +1,210 @@
 /*---------------- ~480px ----------------*/
 @media (max-width: 480px){
+    #wrap{
+        max-width: 480px;
+        height: auto;
+        margin: 0 auto;
+    }
+    header, 
+    #slider1, 
+    #music, 
+    #riize2, 
+    footer{
+        max-width: 100%;
+    }
+    #album, 
+    .album-wrap, 
+    #member,
+    .memberbox{
+        max-width: 83.33vw;
+    }
 
+    #music, 
+    #album, 
+    #member,
+    footer{
+        height: auto;
+    }
+
+    #music > p,
+    #album > p,
+    #member > p{
+        font-size: 8vw;
+    }
+
+    #slider1,
+    #riize2{
+        height: 30vh;
+    }
+    #slider1 > p,
+    #riize2 > p{
+        font-size: clamp(40px, 9.37vw, 45px);
+        text-shadow: 1.04vw 3px #000;
+    }
+
+    #music > p,
+    #album > p{
+        margin: 7% 0;
+    }
+
+    /* 헤더 */
+    .header_nav,
+    .right_header > nav{
+        display: none;
+    }
+
+    header{
+        justify-content: center;
+        height: auto;
+    }
+    .left_header{
+        height: 70px;
+    }
+    .left_header .logo{
+        width: 90px;
+        height: 56px;
+        margin: 7px 0;
+    }
+    .left_header .b{
+        width: 15px;
+        margin-bottom: 7px;
+    }
+
+    .toggle2{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        bottom: 0;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .toggle2 > img{
+        width: 28px;
+    }
+
+    .mobile_menu nav{
+        display: block;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 280px;
+        height: 100vh;
+        transition: right 0.4s;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .mobile_menu nav.active{
+        right: 0;
+    }
+
+    .mobile_menu nav > ul{
+        margin-top: 22%;;
+        margin-right: 20px;
+    }
+
+
+    /* 인기 음악 */
+    .slider_wrap{
+        width: 220px;
+        height: 220px;
+    }
+    .slide li{
+        width: 220px;
+        height: 220px;
+    }
+    #music > span{
+        width: 10vw;
+        height: auto;
+        top: 62%;
+    }
+    .prev{
+        left: 6%;
+        padding-left: 1.5%;
+        padding-bottom: 0.5%;
+    }
+    .prev img{
+        width: 5.5vw;
+        height: 3vh;
+    }
+    .next{
+        right: 6%;
+        padding-top: 8px;
+        padding-bottom: 2px;
+        padding-left: 12px;
+    }
+    .next img{
+        width: 5.5vw;
+        height: 3vh;
+    }
+    .textbox{
+        height: 75px;
+    }
+    .textbox > span{
+        font-size: 4.5vw;
+    }
+
+     /* 앨범 */
+     .albumbox-wrap{
+        height: auto;
+        row-gap: 6.25vw;
+    }
+
+    .albumbox{
+        width: 170px;
+        height: auto;
+        margin-top: 10px;
+    }
+    .albumbox a > img{
+        width: 170px;
+        height: 170px;
+        padding: 1%;
+    }
+    .title{
+        margin-top: 12px;
+    }
+    .title > a > span,
+    .title2 > a > span{
+        font-size: 3vw;
+    }
+    .title > p,
+    .title2 > p,
+    .title > .smallriize,
+    .title2 > .smallriize{
+        font-size: 2vw;
+    }
+
+    img[alt="플레이바"]{
+        width: 20vw;
+    }
+
+    .playbox > button img{
+        width: 3.47vw;
+    }
+    .playbox > button{
+        width: 3.47vw;
+        height: 5.24vh;
+        margin: 0 1.05vw;
+    }
+    .skip > img[alt="왼쪽 스킵"],
+    .next-skip > img[alt="다음"]{
+        width: 3.125vw;
+        margin-bottom: 0.2vh;
+    }
+
+    #album > a{
+        font-size: 3.8vw;
+        padding: 0.5vh 8%;
+        border: 3px solid #FF7700;
+        margin: 10% 0;
+    }
 }
 
 
 
 /*---------------- 481px~1024 ----------------*/
 @media (min-width: 481px) and (max-width: 1024px){
-    #wraip{
+    #wrap{
         max-width: 1024px;
         height: auto;
         margin: 0 auto;
@@ -43,11 +240,12 @@
 
     #slider1,
     #riize2{
-        height: 65vh;
+        height: 60vh;
     }
     #slider1 > p,
     #riize2 > p{
-        font-size: 95px;
+        font-size: clamp(90px , 9vw, 100px);
+        text-shadow: 1.04vw 4px #000;
     }
 
     /* 헤더 */
@@ -71,6 +269,145 @@
     }
     .toggle2 > img{
         width: 35px;
+    }
+
+    .mobile_menu nav{
+        display: block;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 250px;
+        height: 100vh;
+        transition: right 0.4s;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .mobile_menu nav.active{
+        right: 0;
+    }
+
+    /* 인기음악 */
+    .slider_wrap{
+        width: 63.47vw;
+        height: 34.1vh;
+    }
+    .slide li{
+        width: 31.73vw;
+        height: 34.1vh;
+    }
+    #music > span{
+        width: 7vw;
+        height: auto;
+        top: 62%;
+    }
+    .prev{
+        left: 3%;
+        padding-left: 0.2%;
+        padding-bottom: 0.1%;
+    }
+    .prev img{
+        width: 5.5vw;
+    }
+    .next{
+        right: 3%;
+        padding-top: 8px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+    }
+    .next img{
+        width: 5.5vw;
+    }
+    .textbox{
+        height: 110px;
+    }
+    .textbox > span{
+        font-size: 3.12vw;
+    }
+
+    /* 앨범 */
+    .albumbox-wrap{
+        height: auto;
+        row-gap: 6.25vw;
+    }
+
+    .albumbox{
+        width: 34.14vw;
+        height: auto;
+    }
+    .albumbox a > img{
+        width: 34.14vw;
+        height: 36.72vh;
+        padding: 1%;
+    }
+
+    .title > a > span,
+    .title2 > a > span{
+        font-size: 2.7vw;
+    }
+    .title > p,
+    .title2 > p,
+    .title > .smallriize,
+    .title2 > .smallriize{
+        font-size: 1.38vw;
+    }
+
+    img[alt="플레이바"]{
+        width: 17vw;
+    }
+
+    .playbox > button img{
+        width: 3.47vw;
+    }
+    .playbox > button{
+        width: 3.47vw;
+        height: 5.24vh;
+        margin: 0 1.05vw;
+    }
+    .skip > img[alt="왼쪽 스킵"],
+    .next-skip > img[alt="다음"]{
+        width: 3.125vw;
+        margin-bottom: 0.2vh;
+    }
+
+    #album > a{
+        font-size: 3.8vw;
+        padding: 0.5vh 8%;
+    }
+
+    /* 멤버들 */
+    .memberbox{
+        height: auto;
+        justify-content: space-evenly;
+    }
+    .memberbox > a{
+        width: 30vw;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .memberbox > a > p{
+        font-size: 2.77vw;
+    }
+    #member > span{
+        margin-bottom: 8%;
+        font-size: 6vw;
+        line-height: 7vh;
+    }
+
+    /* 푸터 */
+    footer li{
+        margin: 1.32vh 0.69vw;
+    }
+    footer li > a{
+        font-size: 1.73vw;
+    }
+    footer a > img{
+        width: 24.41vw;
+        height: 16.36vh;
+        margin: 2.64vh 0;
+    }
+    footer > P{
+        font-size: 1.38vw;
+        padding-bottom: 1.32vh;
     }
 }
 
@@ -119,17 +456,18 @@
     #slider1 > p,
     #riize2 > p{
         font-size: clamp(110px, 8.33vw, 120px);
+        text-shadow: 1.04vw 4px #000;
     }
 
     /* 헤더 */
     .left_header .logo{
         width: 9.29vw;
         height: 11.12vh;
-        margin: 6.5% 0;
+        margin: 5px 0;
     }
     .left_header .b{
         width: 1.95vw;
-        margin: 6.5% 0;
+        margin: 5px 0;
     }
 
     .header_nav a{
@@ -152,7 +490,7 @@
         flex-direction: column;
         align-items: flex-end;
         margin-top: 40%;
-        margin-right: 10px;
+        margin-right: 20px;
     }
     .right_header > nav ul li a{
         font-size: 25px;
@@ -161,6 +499,7 @@
     .toggle{
         display: block;
         cursor: pointer;
+        margin-right: 20px;
         z-index: 100;
     }
     .toggle img{
@@ -229,7 +568,7 @@
     .title2 > p,
     .title > .smallriize,
     .title2 > .smallriize{
-        font-family: 1.38vw;
+        font-size: 1.38vw;
     }
 
     img[alt="플레이바"]{
@@ -268,8 +607,8 @@
         font-size: 2.77vw;
     }
     #member > span{
-        margin: 5%;
-        font-size: 4.86vw;
+        margin-bottom: 8%;
+        font-size: 6vw;
         line-height: 10vh;
     }
 

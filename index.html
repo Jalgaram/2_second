@@ -55,26 +55,32 @@
                             <li><a href="#">MY</a></li>
                         </ul>
                     </nav>
-
+                </div>
                     <!-- 모바일용 네비 -->
                     <div class="mobile_menu">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Member Profiles</a></li>
-                            <li><a href="#">Albums & Music</a></li>
-                            <li><a href="#">Merch & MD Info</a></li>
-                            <li><a href="#">Events & Schedule</a></li>
-                            <li><a href="#">Media</a></li>
-                            <li><a href="#">LOGIN</a></li>
-                            <li><a href="#">JOIN</a></li>
-                            <li><a href="#">CART</a></li>
-                            <li><a href="#">MY</a></li>
-                        </ul>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Member Profiles</a></li>
+                                <li><a href="#">Albums & Music</a></li>
+                                <li><a href="#">Merch & MD Info</a></li>
+                                <li><a href="#">Events & Schedule</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+
+                            <div class="menu-bottom">
+                                <ul>
+                                    <li><a href="#">LOGIN</a></li>
+                                    <li><a href="#">JOIN</a></li>
+                                    <li><a href="#">CART</a></li>
+                                    <li><a href="#">MY</a></li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
 
                     <button class="toggle"><img src="1_header/icon-menu.png" alt="카테고리"></button>
                     <button class="toggle2"><img src="1_header/icon-menu.png" alt="카테고리"></button>
-                </div>
             </header>
 
             <!-- 슬라이더 -->
@@ -415,21 +421,33 @@
 
             $(function(){
                 $(".toggle2").click(function(){
-                    $(".mobile_menu").toggleClass('active')
+                    $(".mobile_menu > nav").toggleClass('active')
                 });
             });
 
      //슬라이드 
+            function getSlideMoveAmount(){
+                if(window.matchMedia("(max-width: 480px)").matches){
+                    return "-100%";
+                } else if(window.matchMedia("(max-width: 1024px)").matches){
+                    return "-50%";
+                } else{
+                    return "-33.33%";
+                }
+            }
+
             $(".prev").click(function(){
-                $(".slide").stop().animate({marginLeft:"-33.33%"}, 800, function(){
+                let moveAmount = getSlideMoveAmount();
+                $(".slide").stop().animate({marginLeft: moveAmount}, 800, function(){
                     $(".slide li:first").appendTo(".slide");
                     $(".slide").css("margin-left", "0%");
                 });
             });
 
             $(".next").click(function(){
+                let moveAmount = getSlideMoveAmount();
                 $(".slide li:last").prependTo(".slide");
-                $(".slide").css("margin-left", "-33.33%");
+                $(".slide").css("margin-left", moveAmount);
                 $(".slide").stop().animate({marginLeft:"0%"}, 800)
             });
 
