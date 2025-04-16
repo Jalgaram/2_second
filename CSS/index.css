@@ -152,7 +152,7 @@ header .right_header a:hover{opacity: 0.4;}
     font-weight: 600;
     font-style: normal;
     font-size: 130px;
-    text-shadow: 15px 4px #000;
+    text-shadow: 15px 4px #535252;
     margin-top: 2%;
 }
 
@@ -272,7 +272,7 @@ header .right_header a:hover{opacity: 0.4;}
 .albumbox{
     width: 613px;
     height: auto;
-    box-shadow: 10px 0 15px #333;
+    box-shadow: 10px 0 15px #808080;
     background-color: #F6F6F6;
     text-align: center;
 }
@@ -459,7 +459,7 @@ header .right_header a:hover{opacity: 0.4;}
 }
 .memberbox > a > img{
     width: 100%;
-    box-shadow: 10px 0 15px #333;
+    box-shadow: 10px 0 15px #808080;
 }
 .memberbox > a > p {
     color: #333;
