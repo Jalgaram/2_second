@@ -418,15 +418,16 @@
     .memberbox > a{
         width: 30vw;
         height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 4.19vh;
     }
     .memberbox > a > p{
         font-size: 2.77vw;
+        line-height: 4.19vh;
     }
     #member > span{
         margin-bottom: 8%;
-        font-size: 6vw;
-        line-height: 7vh;
+        font-size: 8vw;
+        line-height: 12vh;
     }
 
     /* 푸터 */
@@ -644,7 +645,7 @@
     }
     #member > span{
         margin-bottom: 8%;
-        font-size: 6vw;
+        font-size: 7vw;
         line-height: 10vh;
     }
 
