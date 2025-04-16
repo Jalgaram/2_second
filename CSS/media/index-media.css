@@ -1,5 +1,5 @@
 /*---------------- ~480px ----------------*/
-@media (max-width: 480px){
+@media (max-width: 481px){
     #wrap{
         max-width: 480px;
         height: auto;
@@ -117,11 +117,13 @@
         width: 12vw;
         height: auto;
         top: 62%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .prev{
         left: 3%;
-        padding-left: 2.5%;
-        padding-bottom: 2%;
+        padding: 2.5%;
     }
     .prev img{
         width: 6vw;
@@ -130,13 +132,12 @@
     }
     .next{
         right: 3%;
-        padding-left: 3.5%;
-        padding-bottom: 2%;
+        padding: 2.5%;
     }
     .next img{
         width: 6vw;
         height: 3.5vh;
-        margin-top: 7%;
+        margin-top: 6%;
     }
     .textbox{
         height: 11vh;
