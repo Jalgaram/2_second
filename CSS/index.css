@@ -212,9 +212,9 @@ header .right_header a:hover{opacity: 0.4;}
     opacity: 0.6;
     transform: translateY(-50%);
 }
-.prev{left: 3%;  padding-top: 5px; padding-left: 13px;}
+.prev{left: 3%;  padding-top: 10px;}
 .prev img{width: 80px;}
-.next{right: 3%; padding-top: 5px; padding-left: 13px;}
+.next{right: 3%; padding-top: 10px;}
 .next img{width: 80px;}
 
 .textbox{
