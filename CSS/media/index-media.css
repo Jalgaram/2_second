@@ -106,12 +106,12 @@
 
     /* 인기 음악 */
     .slider_wrap{
-        width: 52.08vw;
-        height: 26.23vh;
+        width: 56.25vw;
+        height: 32.49vh;
     }
     .slide li{
-        width: 52.08vw;
-        height: 26.23vh;
+        width: 56.25vw;
+        height: 32.49vh;
     }
     #music > span{
         width: 12vw;
@@ -119,23 +119,23 @@
         top: 62%;
     }
     .prev{
-        left: 7%;
+        left: 3%;
         padding-left: 2.5%;
         padding-bottom: 2%;
     }
     .prev img{
-        width: 5.5vw;
-        height: 3vh;
+        width: 6vw;
+        height: 3.5vh;
         margin-top: 6%;
     }
     .next{
-        right: 7%;
+        right: 3%;
         padding-left: 3.5%;
         padding-bottom: 2%;
     }
     .next img{
-        width: 5.5vw;
-        height: 3vh;
+        width: 6vw;
+        height: 3.5vh;
         margin-top: 7%;
     }
     .textbox{
@@ -154,13 +154,13 @@
     }
 
     .albumbox{
-        width: 280px;
+        width: 58.33vw;
         height: auto;
         margin-top: 1.049vh;
     }
     .albumbox a > img{
-        width: 280px;
-        height: 280px;
+        width: 58.33vw;
+        height: 33.69vh;
         padding: 1%;
     }
     .title{
