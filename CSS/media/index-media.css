@@ -122,7 +122,7 @@
         align-items: center;
     }
     .prev{
-        left: 3%;
+        left: 5%;
         padding: 2.5%;
     }
     .prev img{
@@ -132,7 +132,7 @@
         margin-right: 20%;
     }
     .next{
-        right: 3%;
+        right: 5%;
         padding: 2.5%;
     }
     .next img{
