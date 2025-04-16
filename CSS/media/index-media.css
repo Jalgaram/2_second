@@ -58,16 +58,16 @@
         height: auto;
     }
     .left_header{
-        height: 70px;
+        height: 7.34vh;
     }
     .left_header .logo{
-        width: 90px;
-        height: 56px;
-        margin: 7px 0;
+        width: 18.75vw;
+        height: 5.87vh;
+        margin: 0.73vh 0;
     }
     .left_header .b{
-        width: 15px;
-        margin-bottom: 7px;
+        width: 3.125vw;
+        margin-bottom: 0.73vh;
     }
 
     .toggle2{
@@ -80,7 +80,7 @@
         z-index: 100;
     }
     .toggle2 > img{
-        width: 28px;
+        width: 5.83vw;
     }
 
     .mobile_menu nav{
