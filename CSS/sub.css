@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* -------------------- 멤버 프로필 창 --------------------------- */
+#profile{
+    width: 94.01vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+#profile > h2{
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6.77vw;
+    text-align: center;
+    padding: 4% 0;
+}
+#profile > p{
+    color: #333;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5.2vw;
+    text-align: center;
+}
+#profile > .profile-p{
+    width: 55.729vw;
+    margin: 0 auto;
+    color: #FF7700;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6.77vw;
+    text-align: center;
+    text-shadow: -3px 0px #fff, 0px 3px #fff, 3px 0px #fff, 0px -3px #fff, 15px 0px 4px #747474; 
+    padding-bottom: 2%;
+    cursor: pointer;
+}
+#profile > .profile-p span{
+    display: inline;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6.77vw;
+}
+
+#profile > .member-profile{
+    width: 100%;
+    display: flex;
+}
+#profile > .member-profile li{
+    width: 15.668vw;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.08vw;
+    text-align: center;
+    line-height: 6.29vh;
+    text-shadow: 0px 0.419vh 5px #747474;
+    cursor: pointer;
+}
+#profile > .member-profile li img{
+    filter: drop-shadow(6px 0px 5px rgba(0, 0, 0, 0.6));
+}
+
+#profile > .profile-p:hover{opacity: 0.7;}
+#profile > .member-profile li img:hover{opacity: 0.7;}
+
+/* ---------------- 라이즈 브리즈소개 창 --------------------- */
+#profile-box-wrap{
+    width: 94.01vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+#profile-box-wrap > .riize-briize-box{
+    width: 93.489vw;
+    height: 236.8vh;
+    margin: 6% auto;
+    border: 2px solid #333;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(/sub_photo/we_one.jpg) center/cover no-repeat;
+    text-align: center;
+}
+
+#profile-box-wrap > .riize-briize-box h2{
+    width: 31.25vw;
+    height: auto;
+    margin: 5% auto;
+    color: #FF7700;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.08vw;
+    text-align: center;
+    font-size: 6.77vw;
+    text-shadow: -3px 0px #fff, 0px 3px #fff, 3px 0px #fff, 0px -3px #fff, 10px 0px 5px #535252;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
