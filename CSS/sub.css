@@ -28,11 +28,11 @@
     margin: 0 auto;
     color: #FF7700;
     font-family: "Inter", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 6.77vw;
     text-align: center;
-    text-shadow: -3px 0px #fff, 0px 3px #fff, 3px 0px #fff, 0px -3px #fff, 15px 0px 4px #747474; 
+    text-shadow: -0.15625vw 0vw #fff, 0vw 0.3145vh #fff, 0.15625vw 0vw #fff, 0vw -0.3145vh #fff, 0.78125vw 0vw 0.20833vw #535252;
     padding-bottom: 2%;
     cursor: pointer;
 }
@@ -40,7 +40,7 @@
     display: inline;
     color: #333;
     font-family: "Inter", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 6.77vw;
 }
@@ -58,11 +58,11 @@
     font-size: 2.08vw;
     text-align: center;
     line-height: 6.29vh;
-    text-shadow: 0px 0.419vh 5px #747474;
+    text-shadow: 0px 0.419vh 0.5246vh #747474;
     cursor: pointer;
 }
 #profile > .member-profile li img{
-    filter: drop-shadow(6px 0px 5px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(0.3125vw 0px 0.5246vh rgba(0, 0, 0, 0.6));
 }
 
 #profile > .profile-p:hover{opacity: 0.7;}
@@ -72,13 +72,13 @@
 #profile-box-wrap{
     width: 94.01vw;
     height: auto;
-    margin: 0 auto;
+    margin: 10% auto;
 }
 
 #profile-box-wrap > .riize-briize-box{
     width: 93.489vw;
     height: 236.8vh;
-    margin: 6% auto;
+    margin: 0 auto;
     border: 2px solid #333;
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(/sub_photo/we_one.jpg) center/cover no-repeat;
     text-align: center;
@@ -87,7 +87,7 @@
 #profile-box-wrap > .riize-briize-box h2{
     width: 31.25vw;
     height: auto;
-    margin: 5% auto;
+    margin: 8% auto;
     color: #FF7700;
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -95,7 +95,209 @@
     font-size: 2.08vw;
     text-align: center;
     font-size: 6.77vw;
-    text-shadow: -3px 0px #fff, 0px 3px #fff, 3px 0px #fff, 0px -3px #fff, 10px 0px 5px #535252;
+    text-shadow: -0.15625vw 0vw #fff, 0vw 0.3145vh #fff, 0.15625vw 0vw #fff, 0vw -0.3145vh #fff, 0.78125vw 0vw 0.20833vw #535252;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 50%;
+}
+.riize-textbox p, 
+.briize-textbox p{
+    width: 1730px;
+    height: auto;
+    margin: 0 auto;
+    padding: 3.147vh 0;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.822vw;
+    text-align: center;
+    line-height: 7.86vh;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.briize-textbox,
+.riize-textbox{
+    margin: 6% 0;
+}
+
+.riize-briize-box > p{
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    font-size: 2.6vw;
+}
+
+/* --------------- 멤버 설명 공통된것 --------------- */
+.shotaro-box,
+.eunseok-box,
+.sungchan-box,
+.wonbin-box,
+.sohee-box,
+.anton-box{
+    width: 93.489vw;
+    border: 2px solid #333;
+}
+
+.shotaro-box h2,
+.eunseok-box h2,
+.sungchan-box h2,
+.wonbin-box h2,
+.sohee-box h2,
+.anton-box h2{
+    padding: 4% 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6.77vw;
+    color: #333;
+    text-shadow: -0.15625vw 0vw #fff, 0vw 0.3145vh #fff, 0.15625vw 0vw #fff, 0vw -0.3145vh #fff, 0.78125vw 0vw 0.20833vw #747474;
+}
+
+.shotaro-box h2 span,
+.eunseok-box h2 span,
+.sungchan-box h2 span,
+.wonbin-box h2 span,
+.sohee-box h2 span,
+.anton-box h2 span{
+    color: #FF7700;
+}
+
+/* 쇼타로 + 공통*/
+.shotaro-box{
+    height: 220.356vh;
+}
+
+.shotaro-box > div,
+.eunseok-box > div,
+.sungchan-box > div,
+.wonbin-box > div,
+.sohee-box > div,
+.anton-box > div{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-bottom: 7%;
+}
+
+.shotaro-box > div > ul{
+    padding-left: 1.04vw;
+    padding-top: 2.09vh;
+}
+
+.shotaro-box > div > ul > li,
+.eunseok-box > div > ul > li,
+.sungchan-box > div > ul > li,
+.wonbin-box > div > ul > li,
+.sohee-box > div > ul > li,
+.anton-box > div > ul > li{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.083vw;
+    text-align: center;
+    line-height: 7.86vh;
+    color: #333;
+    text-align: left;
+}
+
+.shotaro-box > div > ul > li > span,
+.eunseok-box > div > ul > li > span,
+.sungchan-box > div > ul > li > span,
+.wonbin-box > div > ul > li > span,
+.sohee-box > div > ul > li > span,
+.anton-box > div > ul > li > span{
+    font-size: 1.3vw;
+}
+
+.shotaro-box > div > img[alt="쇼타로"],
+.eunseok-box > div > img[alt="은석"],
+.sungchan-box > div > img[alt="성찬"],
+.wonbin-box > div > img[alt="원빈"],
+.sohee-box > div > img[alt="소희"],
+.anton-box > div > img[alt="앤톤"]{
+    width: 758px;
+    height: 1010px;
+    box-shadow: 0.78vw 0.524vh 0.52vw #747474;
+    cursor: pointer;
+}
+
+.shotaro-box > div > img[alt="쇼타로싸인"]{
+    position: absolute;
+    right: 10%;
+    bottom: -3%;
+}
+
+/* 은석*/
+.eunseok-box{
+    height: 230.84vh;
+}
+.eunseok-box > div > ul{
+    padding-top: 2.09vh;
+}
+
+.eunseok-box > div > img[alt="은석싸인"]{
+    position: absolute;
+    right: 10%;
+    bottom: 2%;
+}
+
+/* 성찬 */
+.sungchan-box > div > ul{
+    padding-top: 2.09vh;
+}
+.sungchan-box{
+    height: 257.08vh;
+}
+
+.sungchan-box > div > img[alt="성찬싸인"]{
+    position: absolute;
+    right: 10%;
+    bottom: -4%;   
+}
+
+/* 원빈 */
+.wonbin-box{
+    height: 220.356vh;
+}
+.wonbin-box > div > ul{
+    padding-top: 2.09vh;
+}
+.wonbin-box > div > img[alt="원빈싸인"]{
+    position: absolute;
+    right: 10%;
+    bottom: 4%;
+}
+
+/* 소희 */
+.sohee-box{
+    height: 218.258vh;
+}
+.sohee-box > div > ul{
+    padding-top: 2.09vh;
+}
+.sohee-box > div > img[alt="소희싸인"]{
+    position: absolute;
+    right: 10%;
+    bottom: -9%;
+}
+
+/* 앤톤 */
+.anton-box{
+    height: 239.45vh;
+}
+.anton-box > div > ul{
+    padding-top: 2.09vh;
+}
+.anton-box > div > img[alt="앤톤싸인"]{
+    position: absolute;
+    right: 10%;
+    bottom: -7%;
+}
+
+/* ------------------------- */
+#profile-box-wrap > div:not(:first-child){
+    display: none;
 }
