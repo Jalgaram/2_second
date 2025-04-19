@@ -80,7 +80,7 @@
     height: 236.8vh;
     margin: 0 auto;
     border: 2px solid #333;
-    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(./sub_photo/we_one.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../sub_photo/we_one.jpg) center/cover no-repeat;
     text-align: center;
 }
 
