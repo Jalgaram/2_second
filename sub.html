@@ -105,17 +105,17 @@
                 <p class="profile-p">RIIZE <span>&</span> BRIIZE</p>
 
                 <ul class="member-profile">
-                    <li><img src="sub_photo/SHOTARO1-1.png" alt="쇼타로">SHOTARO</li>
+                    <li data-member="shotaro"><img src="sub_photo/SHOTARO1-1.png" alt="쇼타로">SHOTARO</li>
 
-                    <li><img src="sub_photo/EUNSEOK1-1.png" alt="은석">EUNSEOK</li>
+                    <li data-member="eunseok"><img src="sub_photo/EUNSEOK1-1.png" alt="은석">EUNSEOK</li>
 
-                    <li><img src="sub_photo/SUNGCHAN1-1.png" alt="성찬">SUNGCHAN</li>
+                    <li data-member="sungchan"><img src="sub_photo/SUNGCHAN1-1.png" alt="성찬">SUNGCHAN</li>
 
-                    <li><img src="sub_photo/WONBIN1-1.png" alt="원빈">WONBIN</li>
+                    <li data-member="wonbin"><img src="sub_photo/WONBIN1-1.png" alt="원빈">WONBIN</li>
 
-                    <li><img src="sub_photo/SOHEE1-1.png" alt="소희">SOHEE</li>
+                    <li data-member="sohee"><img src="sub_photo/SOHEE1-1.png" alt="소희">SOHEE</li>
 
-                    <li><img src="sub_photo/ANTON1-1.png" alt="앤톤">ANTON</li>
+                    <li data-member="anton"><img src="sub_photo/ANTON1-1.png" alt="앤톤">ANTON</li>
                 </ul>
              </div>
 
@@ -146,7 +146,7 @@
                 </div>
 
                 <!-- 쇼타로 -->
-                <div class="shotaro-box" class="member-profile-box">
+                <div class="shotaro-box member-profile-box">
                     <h2><span>SHOTARO</span> Proflie</h2>
 
                    <div>
@@ -193,7 +193,7 @@
                 </div>
                 
                 <!-- 은석 -->
-                <div class="eunseok-box" class="member-profile-box">
+                <div class="eunseok-box member-profile-box">
                     <h2><span>EUNSEOK</span> Proflie</h2>
 
                     <div>
@@ -243,7 +243,7 @@
                    </div>
                 </div>
 
-                <div class="sungchan-box" class="member-profile-box">
+                <div class="sungchan-box member-profile-box">
                     <h2><span>SUNGCHAN</span> Proflie</h2>
 
                     <div>
@@ -292,7 +292,7 @@
                    </div>
                 </div>
 
-                <div class="wonbin-box" class="member-profile-box">
+                <div class="wonbin-box member-profile-box">
                     <h2><span>WONBIN</span> Proflie</h2>
 
                     <div>
@@ -340,7 +340,7 @@
                 </div>
 
                 <!-- 소희 -->
-                <div class="sohee-box" class="member-profile-box">
+                <div class="sohee-box member-profile-box">
                     <h2><span>SOHEE</span> Proflie</h2>
 
                     <div>
@@ -384,7 +384,7 @@
                    </div>
                 </div>
 
-                <div class="anton-box" class="member-profile-box">
+                <div class="anton-box member-profile-box">
                     <h2><span>ANTON</span> Proflie</h2>
 
                     <div>
@@ -457,41 +457,21 @@
                 $('.member-profile-box').hide();
             });
 
-            $('.member-profile li:nth-of-type(1)').click(function(){
+            $('.member-profile li').click(function(){
+                const member = $(this).data('member');
                 $('.riize-briize-box').hide();
                 $('.member-profile-box').hide();
-                $('.shotaro-box').show();
+                $('.' + member + '-box').show();
             });
 
-            $('.member-profile li:nth-of-type(2)').click(function(){
-                $('.riize-briize-box').hide();
-                $('.member-profile-box').hide();
-                $('.eunseok-box').show();
-            });
+            const params = new URLSearchParams(window.location.search);
+            const member = params.get('member');
 
-            $('.member-profile li:nth-of-type(3)').click(function(){
+            if(member){
                 $('.riize-briize-box').hide();
                 $('.member-profile-box').hide();
-                $('.sungchan-box').show();
-            });
-
-            $('.member-profile li:nth-of-type(4)').click(function(){
-                $('.riize-briize-box').hide();
-                $('.member-profile-box').hide();
-                $('.wonbin-box').show();
-            });
-
-            $('.member-profile li:nth-of-type(5)').click(function(){
-                $('.riize-briize-box').hide();
-                $('.member-profile-box').hide();
-                $('.sohee-box').show();
-            });
-
-            $('.member-profile li:nth-of-type(6)').click(function(){
-                $('.riize-briize-box').hide();
-                $('.member-profile-box').hide();
-                $('.anton-box').show();
-            });
+                $('.' + member + '-box').show();
+            }
 
             // 프로필 사진 바꾸기~
             const shotaro = document.querySelector('.shotaro-box > div > img[alt="쇼타로"]');

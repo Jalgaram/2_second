@@ -25,7 +25,7 @@
 }
 #profile > .profile-p{
     width: 55.729vw;
-    margin: 0 auto;
+    margin: 2% auto;
     color: #FF7700;
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -68,11 +68,12 @@
 #profile > .profile-p:hover{opacity: 0.7;}
 #profile > .member-profile li img:hover{opacity: 0.7;}
 
-/* ---------------- 라이즈 브리즈소개 창 --------------------- */
+
+/* ----- 소개 창 + 라이즈 브리즈 소개 ---------- */
 #profile-box-wrap{
     width: 94.01vw;
     height: auto;
-    margin: 10% auto;
+    margin: 5% auto;
 }
 
 #profile-box-wrap > .riize-briize-box{

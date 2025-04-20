@@ -327,3 +327,9 @@
     line-height: 15vh;
     margin: 4% 0 8%;
 }
+#member > span a{
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
+#member > span a:hover{color: #FF7700;}
