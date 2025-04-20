@@ -102,7 +102,7 @@
 }
 .riize-textbox p, 
 .briize-textbox p{
-    width: 1730px;
+    width: 90.1vw;
     height: auto;
     margin: 0 auto;
     padding: 3.147vh 0;
@@ -219,8 +219,8 @@
 .wonbin-box > div > img[alt="원빈"],
 .sohee-box > div > img[alt="소희"],
 .anton-box > div > img[alt="앤톤"]{
-    width: 758px;
-    height: 1010px;
+    width: 39.479vw;
+    height: 105.98vh;
     box-shadow: 0.78vw 0.524vh 0.52vw #747474;
     cursor: pointer;
 }
