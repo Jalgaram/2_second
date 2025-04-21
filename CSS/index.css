@@ -116,7 +116,7 @@
 .albumbox{
     width: 510px;
     height: auto;
-    box-shadow: 10px 0 15px #808080;
+    box-shadow: 1.04vw 2.09vh 1.04vw #979797;
     background-color: #F6F6F6;
     text-align: center;
 }
@@ -314,7 +314,7 @@
 }
 .memberbox > a > img{
     width: 100%;
-    box-shadow: 10px 0 15px #808080;
+    box-shadow: 1.04vw 0.5vh 1.04vw #979797;
 }
 .memberbox > a > p {
     color: #333;
@@ -323,12 +323,12 @@
     font-style: normal;
     font-size: 38px;
     text-align: center;
-    margin-top: 10px;
-    line-height: 50px;
+    margin-top: 20px;
+    line-height: 45px;
 }
 .memberbox > a > p span{
-    font-family: "Inter", sans-serif;
-    font-weight: 200;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 25px;
 }

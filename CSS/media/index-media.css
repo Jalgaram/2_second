@@ -434,7 +434,7 @@
     }
     .memberbox > a > p{
         font-size: 2.77vw;
-        line-height: 4.19vh;
+        line-height: 3.5vh;
     }
     .memberbox > a > p span{
         font-size: 1.7vw;
@@ -659,6 +659,7 @@
     }
     .memberbox > a > p{
         font-size: 2.77vw;
+        line-height: 4.197vh;
     }
     .memberbox > a > p span{
         font-size: 1.7vw;
