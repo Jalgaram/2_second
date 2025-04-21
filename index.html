@@ -435,7 +435,7 @@
                 }
             }
 
-            $(".prev").click(function(){
+            $(".next").click(function(){
                 let moveAmount = getSlideMoveAmount();
                 $(".slide").stop().animate({marginLeft: moveAmount}, 800, function(){
                     $(".slide li:first").appendTo(".slide");
@@ -443,7 +443,7 @@
                 });
             });
 
-            $(".next").click(function(){
+            $(".prev").click(function(){
                 let moveAmount = getSlideMoveAmount();
                 $(".slide li:last").prependTo(".slide");
                 $(".slide").css("margin-left", moveAmount);
