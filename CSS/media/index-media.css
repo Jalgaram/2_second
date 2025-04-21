@@ -1,6 +1,6 @@
 @charset "utf-8";
-/*---------------- ~480px ----------------*/
-@media (max-width: 480px){
+/*---------------- ~600px ----------------*/
+@media (max-width: 600px){
     #wrap{
         max-width: 480px;
         height: auto;
@@ -164,7 +164,7 @@
     }
     .albumbox a > img{
         width: 58.33vw;
-        height: 33.69vh;
+        height: auto;
         padding: 1%;
     }
     .title{
@@ -245,8 +245,8 @@
 
 
 
-/*---------------- 481px~1024 ----------------*/
-@media (min-width: 481px) and (max-width: 1024px){
+/*---------------- 601px~1024 ----------------*/
+@media (min-width: 601px) and (max-width: 1024px){
     #wrap{
         max-width: 1024px;
         height: auto;
@@ -381,7 +381,7 @@
     }
     .albumbox a > img{
         width: 34.14vw;
-        height: 36.72vh;
+        height: auto;
         padding: 1%;
     }
 
@@ -604,7 +604,7 @@
     }
     .albumbox a > img{
         width: 34.72vw;
-        height: 60.46vh;
+        height: auto;
         padding: 1%;
     }
 

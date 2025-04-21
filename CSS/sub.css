@@ -57,11 +57,12 @@
     font-style: normal;
     font-size: 2.08vw;
     text-align: center;
-    line-height: 6.29vh;
     text-shadow: 0px 0.419vh 0.5246vh #747474;
     cursor: pointer;
 }
 #profile > .member-profile li img{
+    width: 13.02vw;
+    height: auto;
     filter: drop-shadow(0.3125vw 0px 0.5246vh rgba(0, 0, 0, 0.6));
 }
 
@@ -71,14 +72,14 @@
 
 /* ----- 소개 창 + 라이즈 브리즈 소개 ---------- */
 #profile-box-wrap{
-    width: 94.01vw;
+    width: 78.125vw;
     height: auto;
     margin: 5% auto;
 }
 
 #profile-box-wrap > .riize-briize-box{
-    width: 93.489vw;
-    height: 236.8vh;
+    width: 78.125vw;
+    height: auto;
     margin: 0 auto;
     border: 2px solid #333;
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../sub_photo/we_one.jpg) center/cover no-repeat;
@@ -86,7 +87,8 @@
 }
 
 #profile-box-wrap > .riize-briize-box h2{
-    width: 31.25vw;
+    width: 28vw;
+    padding: 1%;
     height: auto;
     margin: 8% auto;
     color: #FF7700;
@@ -95,14 +97,14 @@
     font-style: normal;
     font-size: 2.08vw;
     text-align: center;
-    font-size: 6.77vw;
+    font-size: 5.2vw;
     text-shadow: -0.15625vw 0vw #fff, 0vw 0.3145vh #fff, 0.15625vw 0vw #fff, 0vw -0.3145vh #fff, 0.78125vw 0vw 0.20833vw #535252;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 50%;
 }
 .riize-textbox p, 
 .briize-textbox p{
-    width: 90.1vw;
+    width: 75vw;
     height: auto;
     margin: 0 auto;
     padding: 3.147vh 0;
@@ -110,9 +112,9 @@
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.822vw;
+    font-size: 1.56vw;
     text-align: center;
-    line-height: 7.86vh;
+    line-height: 6vh;
     background-color: rgba(255, 255, 255, 0.5);
 }
 .briize-textbox,
@@ -121,6 +123,7 @@
 }
 
 .riize-briize-box > p{
+    margin: 9% 0;
     font-family: "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -136,7 +139,7 @@
 .wonbin-box,
 .sohee-box,
 .anton-box{
-    width: 93.489vw;
+    width: 100%;
     border: 2px solid #333;
 }
 
@@ -151,7 +154,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 6.77vw;
+    font-size: 5.2vw;
     color: #333;
     text-shadow: -0.15625vw 0vw #fff, 0vw 0.3145vh #fff, 0.15625vw 0vw #fff, 0vw -0.3145vh #fff, 0.78125vw 0vw 0.20833vw #747474;
 }
@@ -163,11 +166,6 @@
 .sohee-box h2 span,
 .anton-box h2 span{
     color: #FF7700;
-}
-
-/* 쇼타로 + 공통*/
-.shotaro-box{
-    height: 220.356vh;
 }
 
 .shotaro-box > div,
@@ -183,9 +181,16 @@
     padding-bottom: 7%;
 }
 
-.shotaro-box > div > ul{
-    padding-left: 1.04vw;
-    padding-top: 2.09vh;
+.shotaro-box > div > img[alt="쇼타로"],
+.eunseok-box > div > img[alt="은석"],
+.sungchan-box > div > img[alt="성찬"],
+.wonbin-box > div > img[alt="원빈"],
+.sohee-box > div > img[alt="소희"],
+.anton-box > div > img[alt="앤톤"]{
+    width: 500px;
+    height: 666px;
+    box-shadow: 0.78vw 0.524vh 0.52vw #747474;
+    cursor: pointer;
 }
 
 .shotaro-box > div > ul > li,
@@ -197,9 +202,9 @@
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 2.083vw;
+    font-size: 1.5625vw;
     text-align: center;
-    line-height: 7.86vh;
+    line-height: 7vh;
     color: #333;
     text-align: left;
 }
@@ -210,92 +215,123 @@
 .wonbin-box > div > ul > li > span,
 .sohee-box > div > ul > li > span,
 .anton-box > div > ul > li > span{
-    font-size: 1.3vw;
+    font-size: 1.041vw;
 }
 
-.shotaro-box > div > img[alt="쇼타로"],
-.eunseok-box > div > img[alt="은석"],
-.sungchan-box > div > img[alt="성찬"],
-.wonbin-box > div > img[alt="원빈"],
-.sohee-box > div > img[alt="소희"],
-.anton-box > div > img[alt="앤톤"]{
-    width: 39.479vw;
-    height: 105.98vh;
-    box-shadow: 0.78vw 0.524vh 0.52vw #747474;
-    cursor: pointer;
+.shotaro-box > div > img[alt="쇼타로싸인"],
+.eunseok-box > div > img[alt="은석싸인"],
+.sungchan-box > div > img[alt="성찬싸인"],
+.wonbin-box > div > img[alt="원빈싸인"],
+.sohee-box > div > img[alt="소희싸인"],
+.anton-box > div > img[alt="앤톤싸인"]{
+    width: 26.4vw;
+    height: auto;
+}
+
+
+/* 쇼타로 */
+.shotaro-box{
+    height: 2001px;
+}
+
+.shotaro-box > div > ul:nth-of-type(2){
+    padding: 2% 8%;
 }
 
 .shotaro-box > div > img[alt="쇼타로싸인"]{
     position: absolute;
-    right: 10%;
-    bottom: -3%;
+    right: 7%;
+    bottom: -1%;
 }
 
 /* 은석*/
 .eunseok-box{
-    height: 230.84vh;
+    height: 212vh;
 }
-.eunseok-box > div > ul{
-    padding-top: 2.09vh;
+
+.eunseok-box > div > ul:nth-of-type(1){
+    padding-right: 5%;
+}
+.eunseok-box > div > ul:nth-of-type(2){
+    padding: 2% 9%;
 }
 
 .eunseok-box > div > img[alt="은석싸인"]{
     position: absolute;
-    right: 10%;
+    right: 7%;
     bottom: 2%;
 }
 
 /* 성찬 */
-.sungchan-box > div > ul{
-    padding-top: 2.09vh;
-}
 .sungchan-box{
-    height: 257.08vh;
+    height: 250vh;
+}
+
+.sungchan-box > div > ul:nth-of-type(1){
+    padding-right: 6%;
+}
+.sungchan-box > div > ul:nth-of-type(2){
+    padding: 2% 10%;
 }
 
 .sungchan-box > div > img[alt="성찬싸인"]{
     position: absolute;
-    right: 10%;
-    bottom: -4%;   
+    right: 7%;
+    bottom: -5%;   
 }
 
 /* 원빈 */
 .wonbin-box{
-    height: 220.356vh;
+    height: 225vh;
 }
-.wonbin-box > div > ul{
-    padding-top: 2.09vh;
+.wonbin-box > div > ul:nth-of-type(1){
+    padding-right: 5%;
 }
+.wonbin-box > div > ul:nth-of-type(2){
+    padding: 2% 10%;
+}
+
 .wonbin-box > div > img[alt="원빈싸인"]{
     position: absolute;
-    right: 10%;
-    bottom: 4%;
+    right: 7%;
+    bottom: 3.5%;
 }
 
 /* 소희 */
 .sohee-box{
     height: 218.258vh;
 }
-.sohee-box > div > ul{
-    padding-top: 2.09vh;
+
+.sohee-box > div > ul:nth-of-type(1){
+    padding-right: 5%;
 }
+.sohee-box > div > ul:nth-of-type(2){
+    padding: 2% 0; 
+    padding-right: 6%;
+}
+
 .sohee-box > div > img[alt="소희싸인"]{
     position: absolute;
-    right: 10%;
-    bottom: -9%;
+    right: 5%;
+    bottom: -6.5%;
 }
 
 /* 앤톤 */
 .anton-box{
-    height: 239.45vh;
+    height: 220vh;
 }
-.anton-box > div > ul{
-    padding-top: 2.09vh;
+
+.anton-box > div > ul:nth-of-type(1){
+    padding-right: 5%;
 }
+.anton-box > div > ul:nth-of-type(2){
+    padding: 2% 8%
+}
+
 .anton-box > div > img[alt="앤톤싸인"]{
     position: absolute;
-    right: 10%;
-    bottom: -7%;
+    right: 7%;
+    bottom: -6.5%;
 }
 
 /* ------------------------- */
