@@ -182,7 +182,7 @@ footer li > a{
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -197,6 +197,6 @@ footer > P{
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 10px;
 }
