@@ -106,23 +106,23 @@
 }
 
 .albumbox-wrap{
-    width: 1600px;
-    height: 2106px;
+    width: 1300px;
+    height: 1800px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: space-between;
 }
 .albumbox{
-    width: 613px;
+    width: 510px;
     height: auto;
     box-shadow: 10px 0 15px #808080;
     background-color: #F6F6F6;
     text-align: center;
 }
 .albumbox a > img{
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
     padding-top: 1%;
 }
 .albumbox a > img:hover{opacity: 0.7;}
@@ -133,7 +133,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     display: block;
     margin-top: 5%;
@@ -162,7 +162,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     display: block;
     margin-top: 5%;
@@ -184,19 +184,30 @@
     font-size: 20px;
 }
 
-.albumbox > img[alt="플레이바"]{margin-top: 5%;}
+.albumbox > img[alt="플레이바"]{
+    margin-top: 5%;
+}
 
 .playbox{margin: 4% 0;}
 .playbox > button{
     border-style: none;
     background-color: transparent;
-    margin: 0 20px;
+    margin: 10px 20px;
     cursor: pointer;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 50px;
 }
-.skip > img[alt="왼쪽 스킵"]{margin-bottom: 5px;}
-.next-skip > img[alt="다음"]{margin-bottom: 5px;}
+.playbox > button img{
+    width: 50px;
+}
+.skip > img[alt="왼쪽 스킵"]{
+    width: 45px;
+    margin-bottom: 2px;
+}
+.next-skip > img[alt="다음"]{
+    width: 45px;
+    margin-bottom: 2px;
+}
 
 
 .playbox > .stop1{display: none;}
@@ -314,6 +325,12 @@
     text-align: center;
     margin-top: 10px;
     line-height: 50px;
+}
+.memberbox > a > p span{
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
 }
 
 #member > span{

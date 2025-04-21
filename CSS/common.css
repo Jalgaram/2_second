@@ -164,6 +164,7 @@ footer{
     max-width: 1920px;
     height: auto;
     margin: 0 auto;
+    padding: 1%;
     background-color: #333;
     opacity: 0.7;
     text-align: center;
@@ -188,7 +189,7 @@ footer li > a{
 footer a > img{
     width: 412px;
     height: 257px;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 footer > P{
