@@ -216,11 +216,12 @@
         margin-bottom: 30px;
     }
     .memberbox > a > p{
-        font-size: 2.77vw;
+        margin-top: 2.09vh;
+        font-size: 3vw;
         line-height: 2.09vh;
     }
     .memberbox > a > p span{
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
     #member > span{
         margin-bottom: 8%;
@@ -663,6 +664,7 @@
     }
     .memberbox > a > p span{
         font-size: 1.7vw;
+        margin-top: 2.09vh;
     }
     #member > span{
         margin-bottom: 8%;
