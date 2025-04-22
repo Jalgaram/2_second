@@ -61,15 +61,6 @@
         height: auto;
     }
 
-    .shotaro-box > div > ul > li,
-    .eunseok-box > div > ul > li,
-    .sungchan-box > div > ul > li,
-    .wonbin-box > div > ul > li,
-    .sohee-box > div > ul > li,
-    .anton-box > div > ul > li{
-        line-height: 7vh;
-    }
-
     .shotaro-box > div > img[alt="쇼타로싸인"],
     .eunseok-box > div > img[alt="은석싸인"],
     .sungchan-box > div > img[alt="성찬싸인"],
@@ -78,95 +69,5 @@
     .anton-box > div > img[alt="앤톤싸인"]{
         width: 28vw;
         height: auto;
-    }
-
-    /* 쇼타로 */
-    .shotaro-box{
-        height: 195vh;
-    }
-    .shotaro-box > div > ul:nth-of-type(1){
-        padding: 2%;
-    }
-    .shotaro-box > div > ul:nth-of-type(2){
-        padding: 2% 10%;
-    }
-    .shotaro-box > div > img[alt="쇼타로싸인"]{
-        bottom: 0%;
-    }
-
-    /* 은석 */
-    .eunseok-box{
-        height: 195.5vh;
-    }
-    .eunseok-box > div > ul:nth-of-type(1){
-        padding: 2%;
-        padding-right: 8%;
-    }
-    .eunseok-box > div > ul:nth-of-type(2){
-        padding: 2% 10%;
-    }
-    .eunseok-box > div > img[alt="은석싸인"]{
-        bottom: 3%;
-    }
-
-    /* 성찬 */
-    .sungchan-box{
-        height: 233vh;
-    }
-    .sungchan-box > div > ul:nth-of-type(1){
-        padding: 2%;
-        padding-right: 8%;
-    }
-
-    /* 원빈 */
-    .wonbin-box{
-        height: 205vh;
-    }
-    .wonbin-box > div > ul:nth-of-type(1){
-        padding: 2%;
-        padding-right: 8%;
-    }
-    .wonbin-box > div > ul:nth-of-type(2){
-        padding: 2% 10.5%;
-    }
-    .wonbin-box > div > img[alt="원빈싸인"]{
-        position: absolute;
-        right: 7%;
-        bottom: 5%;
-    }
-
-    /* 소희 */
-    .sohee-box{
-        height: 200vh;
-    }
-    .sohee-box > div > ul:nth-of-type(1){
-        padding: 2%;
-        padding-right: 8%;
-    }
-    .sohee-box > div > ul:nth-of-type(2){
-        padding: 2% 0; 
-        padding-right: 16.4%;
-    }
-    .sohee-box > div > img[alt="소희싸인"]{
-        position: absolute;
-        right: 5%;
-        bottom: -5%;
-    }
-
-    /* 앤톤 */
-    .anton-box{
-        height: 200vh;
-    }
-    .anton-box > div > ul:nth-of-type(1){
-        padding: 2%;
-        padding-right: 8%;
-    }
-    .anton-box > div > ul:nth-of-type(2){
-        padding: 2% 9%
-    }
-    .anton-box > div > img[alt="앤톤싸인"]{
-        position: absolute;
-        right: 7%;
-        bottom: -4.5%;
     }
 }

@@ -187,35 +187,10 @@
 .wonbin-box > div > img[alt="원빈"],
 .sohee-box > div > img[alt="소희"],
 .anton-box > div > img[alt="앤톤"]{
-    width: 500px;
-    height: 666px;
+    width: 26.041vw;
+    height: auto;
     box-shadow: 1.04vw 0.5vh 1.04vw #979797;
     cursor: pointer;
-}
-
-.shotaro-box > div > ul > li,
-.eunseok-box > div > ul > li,
-.sungchan-box > div > ul > li,
-.wonbin-box > div > ul > li,
-.sohee-box > div > ul > li,
-.anton-box > div > ul > li{
-    font-family: "Istok Web", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5625vw;
-    text-align: center;
-    line-height: 7vh;
-    color: #333;
-    text-align: left;
-}
-
-.shotaro-box > div > ul > li > span,
-.eunseok-box > div > ul > li > span,
-.sungchan-box > div > ul > li > span,
-.wonbin-box > div > ul > li > span,
-.sohee-box > div > ul > li > span,
-.anton-box > div > ul > li > span{
-    font-size: 1.041vw;
 }
 
 .shotaro-box > div > img[alt="쇼타로싸인"],
@@ -224,75 +199,115 @@
 .wonbin-box > div > img[alt="원빈싸인"],
 .sohee-box > div > img[alt="소희싸인"],
 .anton-box > div > img[alt="앤톤싸인"]{
-    width: 26.4vw;
+    position: absolute;
+    width: 23.4375vw;
     height: auto;
 }
 
+.shotaro-box > div > table,
+.eunseok-box > div > table,
+.sungchan-box > div > table,
+.wonbin-box > div > table{
+    border-collapse: collapse;
+}
+
+.shotaro-box > div > table td,
+.eunseok-box > div > table td,
+.sungchan-box > div > table td,
+.wonbin-box > div > table td{
+    border: 1px solid #333;
+    text-align: left;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.197vw;
+}
+
+.shotaro-box > div > table span,
+.eunseok-box > div > table span,
+.sungchan-box > div > table span,
+.wonbin-box > div > table span{
+    font-size: 0.78vw;
+}
+
+.shotaro-box > div > .table1 td:first-child,
+.eunseok-box > div > .table1 td:first-child,
+.sungchan-box > div > .table1 td:first-child,
+.wonbin-box > div > .table1 td:first-child{
+    width: 10.41vw;
+    text-align: center;
+    background-color: #f3f2f2;
+}
+.shotaro-box > div > .table1 td:not(:first-child),
+.eunseok-box > div > .table1 td:not(:first-child),
+.wonbin-box > div > .table1 td:not(:first-child){
+    width: 26.04vw;
+    padding: 2.098vh 1.04vw;
+}
+.shotaro-box > div > .table2,
+.eunseok-box > div > .table2,
+.sungchan-box > div > .table2,
+.wonbin-box > div > .table2{
+   margin: 4vh 0;
+}
+.shotaro-box > div > .table2 td:first-child,
+.eunseok-box > div > .table2 td:first-child,
+.sungchan-box > div > .table2 td:first-child,
+.wonbin-box > div > .table2 td:first-child{
+    width: 13vw;
+    text-align: center;
+    background-color: #f3f2f2;
+}
+.shotaro-box > div > .table2 td:not(:first-child),
+.eunseok-box > div > .table2 td:not(:first-child),
+.sungchan-box > div > .table2 td:not(:first-child),
+.wonbin-box > div > .table2 td:not(:first-child){
+    width: 54.5vw;
+    padding: 2.098vh 1.04vw;
+}
 
 /* 쇼타로 */
 .shotaro-box{
-    height: 2001px;
-}
-
-.shotaro-box > div > ul:nth-of-type(2){
-    padding: 2% 8%;
+    height: 183.63vh;
+    position: relative;
 }
 
 .shotaro-box > div > img[alt="쇼타로싸인"]{
-    position: absolute;
     right: 7%;
-    bottom: -1%;
+    bottom: 1%;
 }
 
 /* 은석*/
 .eunseok-box{
-    height: 212vh;
-}
-
-.eunseok-box > div > ul:nth-of-type(1){
-    padding-right: 5%;
-}
-.eunseok-box > div > ul:nth-of-type(2){
-    padding: 2% 9%;
+    height: 190vh;
 }
 
 .eunseok-box > div > img[alt="은석싸인"]{
-    position: absolute;
     right: 7%;
     bottom: 2%;
 }
 
 /* 성찬 */
 .sungchan-box{
-    height: 250vh;
+    height: 218vh;
 }
 
-.sungchan-box > div > ul:nth-of-type(1){
-    padding-right: 6%;
-}
-.sungchan-box > div > ul:nth-of-type(2){
-    padding: 2% 10%;
+.sungchan-box > div > .table1 td:not(:first-child){
+    width: 25vw;;
+    padding: 2.098vh 1.04vw;
 }
 
 .sungchan-box > div > img[alt="성찬싸인"]{
-    position: absolute;
     right: 7%;
     bottom: -5%;   
 }
 
 /* 원빈 */
 .wonbin-box{
-    height: 225vh;
-}
-.wonbin-box > div > ul:nth-of-type(1){
-    padding-right: 5%;
-}
-.wonbin-box > div > ul:nth-of-type(2){
-    padding: 2% 10%;
+    height: 194vh;
 }
 
 .wonbin-box > div > img[alt="원빈싸인"]{
-    position: absolute;
     right: 7%;
     bottom: 3.5%;
 }
@@ -302,16 +317,7 @@
     height: 218.258vh;
 }
 
-.sohee-box > div > ul:nth-of-type(1){
-    padding-right: 5%;
-}
-.sohee-box > div > ul:nth-of-type(2){
-    padding: 2% 0; 
-    padding-right: 6%;
-}
-
 .sohee-box > div > img[alt="소희싸인"]{
-    position: absolute;
     right: 5%;
     bottom: -6.5%;
 }
@@ -321,15 +327,7 @@
     height: 220vh;
 }
 
-.anton-box > div > ul:nth-of-type(1){
-    padding-right: 5%;
-}
-.anton-box > div > ul:nth-of-type(2){
-    padding: 2% 8%
-}
-
 .anton-box > div > img[alt="앤톤싸인"]{
-    position: absolute;
     right: 7%;
     bottom: -6.5%;
 }

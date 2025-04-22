@@ -186,6 +186,7 @@
 
 .albumbox > img[alt="플레이바"]{
     margin-top: 5%;
+    width: 50%;
 }
 
 .playbox{margin: 4% 0;}
