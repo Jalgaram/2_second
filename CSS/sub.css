@@ -133,22 +133,12 @@
 }
 
 /* --------------- 멤버 설명 공통된것 --------------- */
-.shotaro-box,
-.eunseok-box,
-.sungchan-box,
-.wonbin-box,
-.sohee-box,
-.anton-box{
+.member-profile-box{
     width: 100%;
     border: 2px solid #333;
 }
 
-.shotaro-box h2,
-.eunseok-box h2,
-.sungchan-box h2,
-.wonbin-box h2,
-.sohee-box h2,
-.anton-box h2{
+.member-profile-box h2{
     padding: 4% 0;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -159,21 +149,11 @@
     text-shadow: -0.15625vw 0vw #fff, 0vw 0.3145vh #fff, 0.15625vw 0vw #fff, 0vw -0.3145vh #fff, 0.7vw 0 0.20833vw #979797;
 }
 
-.shotaro-box h2 span,
-.eunseok-box h2 span,
-.sungchan-box h2 span,
-.wonbin-box h2 span,
-.sohee-box h2 span,
-.anton-box h2 span{
+.member-profile-box h2 span{
     color: #FF7700;
 }
 
-.shotaro-box > div,
-.eunseok-box > div,
-.sungchan-box > div,
-.wonbin-box > div,
-.sohee-box > div,
-.anton-box > div{
+.member-profile-box div{
     position: relative;
     display: flex;
     flex-flow: row wrap;

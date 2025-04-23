@@ -6,6 +6,8 @@
         max-width: 600px;
         height: auto;
     }
+
+   
 }
 
 /* 601px ~ 1024px */
@@ -13,6 +15,22 @@
     #wrap{
         max-width: 1024px;
         height: auto;
+    }
+
+    .shotaro-box,
+    .eunseok-box,
+    .sungchan-box,
+    .wonbin-box,
+    .sohee-box,
+    .anton-box{
+        height: auto;
+    }
+
+    .sungchan-box .sign-img,
+    .sohee-box .sign-img,
+    .anton-box .sign-img{
+        right: 3%;
+        bottom: 0%;
     }
 }
 
@@ -23,12 +41,16 @@
         height: auto;
     }
 
-    .shotaro-box,
-    .eunseok-box,
-    .sungchan-box,
-    .wonbin-box,
-    .sohee-box,
-    .anton-box{
+    .member-profile-box{
+        height: auto;
+    }
+
+    .member-profile-box .profile-img{
+        width: 26.041vw;
+        height: auto;
+    }
+    .member-profile-box .sign-img{
+        width: 23.4375vw;
         height: auto;
     }
 
@@ -59,34 +81,13 @@
     }
 
 /* --------------- 멤버 설명 공통된것 --------------- */
-    .shotaro-box,
-    .eunseok-box,
-    .sungchan-box,
-    .wonbin-box,
-    .sohee-box,
-    .anton-box{
+    .member-profile-box{
         width: 92.649vw;
-    }
-
-    .member-profile-box .profile-img{
-        width: 30.88vw;
         height: auto;
-    }
-    .member-profile-box .sign-im{
-        width: 23.4375vw;   
     }
 
     .member-profile-box .table2{
-        width: 75.8vw;
-    }
-
-    .shotaro-box,
-    .eunseok-box,
-    .sungchan-box,
-    .wonbin-box,
-    .sohee-box,
-    .anton-box{
-        height: auto;
+        width: 72.5vw;
     }
 
     .sungchan-box .sign-img,
