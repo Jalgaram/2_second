@@ -16,7 +16,7 @@
          0vw 0.16vh #fff, 
          0.08vw 0vw #fff, 
          0vw -0.16vh #fff, 
-         0.4vw 0vw 0.11vw #979797;
+         0.5vw 0.6vw 0.11vw #979797;
     }
     #profile > p{
         font-size: 7vw;
@@ -54,7 +54,7 @@
     #profile-box-wrap > .riize-briize-box h2{
         width: 35vw;
         font-size: 7vw;
-        text-shadow: -0.08vw 0vw #fff, 0vw 0.16vh #fff, 0.08vw 0vw #fff, 0vw -0.16vh #fff, 0.7vw 0vw 0.11vw #848484;
+        text-shadow: -0.08vw 0vw #fff, 0vw 0.16vh #fff, 0.08vw 0vw #fff, 0vw -0.16vh #fff, 0.7vw 0.5vw 0.11vw #848484;
     }
     .riize-textbox p, 
     .briize-textbox p{
@@ -74,7 +74,7 @@
          0vw 0.16vh #fff, 
          0.08vw 0vw #fff, 
          0vw -0.16vh #fff, 
-         0.35vw 0 0.11vw #979797;
+         0.7vw 0.5 0.11vw #979797;
     }
 
     .member-profile-box .profile-img{
@@ -163,7 +163,7 @@
         0vw 0.25vh #fff, 
         0.125vw 0vw #fff, 
         0vw -0.25vh #fff, 
-        0.625vw 0vw 0.17vw #979797;
+        0.625vw 0.5vw 0.17vw #979797;
     }
     #profile > p{
         font-size: 6vw;
@@ -200,7 +200,7 @@
     #profile-box-wrap > .riize-briize-box h2{
         width: 35vw;
         font-size: 7vw;
-        text-shadow: -0.125vw 0vw #fff, 0vw 0.25vh #fff, 0.125vw 0vw #fff, 0vw -0.25vh #fff, 0.7vw 0vw 0.17vw #848484;
+        text-shadow: -0.125vw 0vw #fff, 0vw 0.25vh #fff, 0.125vw 0vw #fff, 0vw -0.25vh #fff, 0.7vw 0.4vw 0.17vw #848484;
     }
     .riize-textbox p, 
     .briize-textbox p{
@@ -220,7 +220,7 @@
         0vw 0.25vh #fff, 
         0.125vw 0vw #fff, 
         0vw -0.25vh #fff, 
-        0.56vw 0 0.17vw #979797;
+        0.7vw 0.4 0.17vw #979797;
     }
 
     .member-profile-box .profile-img{
