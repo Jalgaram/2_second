@@ -80,7 +80,7 @@
 #profile-box-wrap > .riize-briize-box{
     width: 78.125vw;
     height: auto;
-    margin: 0 auto;
+    margin: 5% auto;
     border: 2px solid #333;
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../sub_photo/we_one.jpg) center/cover no-repeat;
     text-align: center;

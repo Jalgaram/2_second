@@ -39,6 +39,7 @@
     #profile-box-wrap,
     #profile-box-wrap > .riize-briize-box{
         width: 98%;
+        margin-bottom: 10vw;
     }
 
     #profile-box-wrap > .riize-briize-box h2{
@@ -168,6 +169,7 @@
     #profile-box-wrap,
     #profile-box-wrap > .riize-briize-box{
         width: 95%;
+        margin-bottom: 10vw;
     }
 
     #profile-box-wrap > .riize-briize-box h2{
