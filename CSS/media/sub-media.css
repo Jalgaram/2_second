@@ -7,12 +7,15 @@
         height: auto;
     }
 
-    #profile > h2,
+  #profile > h2,
     #profile > .profile-p{
-        font-size: 8vw;
+        width: 100%;
+        font-size: 10vw;
+        margin: 2% 0;
     }
     #profile > p{
-        font-size: 6vw;
+        font-size: 7vw;
+        margin: 2% 0;
     }
     
     #profile > .member-profile{
@@ -25,22 +28,28 @@
     }
 
     #profile > .member-profile li{
-        margin: 1% 5%;
-        width: 20vw;
-        font-size: 3vw
+        margin: 2% 3%;
+        width: 25vw;
+        font-size: 4vw
     }
     #profile > .member-profile li img{
-        width: 20vw;
+        width: 25vw;
     }
 
     #profile-box-wrap,
     #profile-box-wrap > .riize-briize-box{
-        width: 95%;
+        width: 98%;
     }
 
+    #profile-box-wrap > .riize-briize-box h2{
+        width: 35vw;
+        font-size: 7vw;
+    }
     .riize-textbox p, 
     .briize-textbox p{
-        line-height: 4.5vh;
+        width: 95%;
+        line-height: 3vh;
+        font-size: 2vw;
     }
 
     .member-profile-box{
@@ -48,14 +57,14 @@
         padding: 3.147vh 0;
     }
     .member-profile-box h2{
-        font-size: 8vw;;
+        font-size: 8.5vw;;
     }
 
     .member-profile-box .profile-img{
-        width: 40vw;
+        width: 60%;
     }
     .member-profile-box .sign-img{
-        width: 30vw;
+        width: 37%;
     }
 
     .member-profile-box div{
@@ -67,15 +76,15 @@
     }
 
     .member-profile-box .profile-table th,td{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .member-profile-box .profile-table td span{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 
     .member-profile-box .table1{
         margin-top: 4.5vh;
-        width: 80vw;
+        width: 90%;
         
     }
     .member-profile-box .table1 th{
@@ -94,7 +103,7 @@
     }
 
     .member-profile-box .table2{
-        width: 80vw;
+        width: 90%;
         margin: 0;
      }
 
@@ -118,7 +127,7 @@
     .sohee-box .sign-img,
     .anton-box .sign-img{
         right: 3%;
-        bottom: -0.5%;
+        bottom: -1%;
     }
 }
 
@@ -131,6 +140,7 @@
 
     #profile > h2,
     #profile > .profile-p{
+        width: 100%;
         font-size: 8vw;
     }
     #profile > p{
@@ -160,9 +170,15 @@
         width: 95%;
     }
 
+    #profile-box-wrap > .riize-briize-box h2{
+        width: 35vw;
+        font-size: 7vw;
+    }
     .riize-textbox p, 
     .briize-textbox p{
+        width: 85vw;
         line-height: 4.5vh;
+        font-size: 1.8vw;
     }
 
     .member-profile-box{
