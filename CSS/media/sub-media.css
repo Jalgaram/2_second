@@ -7,19 +7,35 @@
         height: auto;
     }
 
+    #profile > h2,
+    #profile > .profile-p{
+        font-size: 8vw;
+    }
+    #profile > p{
+        font-size: 6vw;
+    }
+    
     #profile > .member-profile{
-        width: 78vw;
+        width: 100%;
         margin: 0 auto;
         row-gap: 3.147vh;
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
     }
 
     #profile > .member-profile li{
-        margin: 1% 6.5%;
+        margin: 1% 5%;
+        width: 20vw;
+        font-size: 3vw
     }
     #profile > .member-profile li img{
-        width: 16vw;
+        width: 20vw;
+    }
+
+    #profile-box-wrap,
+    #profile-box-wrap > .riize-briize-box{
+        width: 95%;
     }
 
     .riize-textbox p, 
@@ -32,11 +48,14 @@
         padding: 3.147vh 0;
     }
     .member-profile-box h2{
-        font-size: 6.5vw;;
+        font-size: 8vw;;
     }
 
     .member-profile-box .profile-img{
-        width: 32vw;
+        width: 40vw;
+    }
+    .member-profile-box .sign-img{
+        width: 30vw;
     }
 
     .member-profile-box div{
@@ -48,14 +67,15 @@
     }
 
     .member-profile-box .profile-table th,td{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
     .member-profile-box .profile-table td span{
-        font-size: 1.1vw;
+        font-size: 1.5vw;
     }
 
     .member-profile-box .table1{
         margin-top: 4.5vh;
+        width: 80vw;
         
     }
     .member-profile-box .table1 th{
@@ -74,6 +94,7 @@
     }
 
     .member-profile-box .table2{
+        width: 80vw;
         margin: 0;
      }
 
@@ -107,20 +128,36 @@
         max-width: 1024px;
         height: auto;
     }
+
+    #profile > h2,
+    #profile > .profile-p{
+        font-size: 8vw;
+    }
+    #profile > p{
+        font-size: 6vw;
+    }
     
     #profile > .member-profile{
-        width: 78vw;
+        width: 100%;
         margin: 0 auto;
         row-gap: 3.147vh;
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
     }
 
     #profile > .member-profile li{
-        margin: 1% 6.5%;
+        margin: 1% 5%;
+        width: 20vw;
+        font-size: 3vw
     }
     #profile > .member-profile li img{
-        width: 16vw;
+        width: 20vw;
+    }
+
+    #profile-box-wrap,
+    #profile-box-wrap > .riize-briize-box{
+        width: 95%;
     }
 
     .riize-textbox p, 
@@ -133,11 +170,14 @@
         padding: 3.147vh 0;
     }
     .member-profile-box h2{
-        font-size: 6.5vw;;
+        font-size: 8vw;;
     }
 
     .member-profile-box .profile-img{
-        width: 32vw;
+        width: 40vw;
+    }
+    .member-profile-box .sign-img{
+        width: 30vw;
     }
 
     .member-profile-box div{
@@ -149,14 +189,15 @@
     }
 
     .member-profile-box .profile-table th,td{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
     .member-profile-box .profile-table td span{
-        font-size: 1.1vw;
+        font-size: 1.5vw;
     }
 
     .member-profile-box .table1{
         margin-top: 4.5vh;
+        width: 80vw;
         
     }
     .member-profile-box .table1 th{
@@ -175,6 +216,7 @@
     }
 
     .member-profile-box .table2{
+        width: 80vw;
         margin: 0;
      }
 
