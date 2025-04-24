@@ -7,15 +7,24 @@
         height: auto;
     }
 
-  #profile > h2,
     #profile > .profile-p{
         width: 100%;
         font-size: 10vw;
         margin: 2% 0;
+        text-shadow: 
+        -0.08vw 0vw #fff, 
+         0vw 0.16vh #fff, 
+         0.08vw 0vw #fff, 
+         0vw -0.16vh #fff, 
+         0.4vw 0vw 0.11vw #979797;
     }
     #profile > p{
         font-size: 7vw;
         margin: 2% 0;
+    }
+    #profile > h2{
+        width: 100%;
+        font-size: 10vw;
     }
     
     #profile > .member-profile{
@@ -45,6 +54,7 @@
     #profile-box-wrap > .riize-briize-box h2{
         width: 35vw;
         font-size: 7vw;
+        text-shadow: -0.08vw 0vw #fff, 0vw 0.16vh #fff, 0.08vw 0vw #fff, 0vw -0.16vh #fff, 0.7vw 0vw 0.11vw #848484;
     }
     .riize-textbox p, 
     .briize-textbox p{
@@ -58,7 +68,13 @@
         padding: 3.147vh 0;
     }
     .member-profile-box h2{
-        font-size: 8.5vw;;
+        font-size: 8.5vw;
+        text-shadow: 
+        -0.08vw 0vw #fff, 
+         0vw 0.16vh #fff, 
+         0.08vw 0vw #fff, 
+         0vw -0.16vh #fff, 
+         0.35vw 0 0.11vw #979797;
     }
 
     .member-profile-box .profile-img{
@@ -139,13 +155,22 @@
         height: auto;
     }
 
-    #profile > h2,
     #profile > .profile-p{
         width: 100%;
         font-size: 8vw;
+        text-shadow: 
+        -0.125vw 0vw #fff, 
+        0vw 0.25vh #fff, 
+        0.125vw 0vw #fff, 
+        0vw -0.25vh #fff, 
+        0.625vw 0vw 0.17vw #979797;
     }
     #profile > p{
         font-size: 6vw;
+    }
+    #profile > h2{
+        width: 100%;
+        font-size: 8vw;
     }
     
     #profile > .member-profile{
@@ -175,6 +200,7 @@
     #profile-box-wrap > .riize-briize-box h2{
         width: 35vw;
         font-size: 7vw;
+        text-shadow: -0.125vw 0vw #fff, 0vw 0.25vh #fff, 0.125vw 0vw #fff, 0vw -0.25vh #fff, 0.7vw 0vw 0.17vw #848484;
     }
     .riize-textbox p, 
     .briize-textbox p{
@@ -188,7 +214,13 @@
         padding: 3.147vh 0;
     }
     .member-profile-box h2{
-        font-size: 8vw;;
+        font-size: 8vw;
+        text-shadow: 
+        -0.125vw 0vw #fff, 
+        0vw 0.25vh #fff, 
+        0.125vw 0vw #fff, 
+        0vw -0.25vh #fff, 
+        0.56vw 0 0.17vw #979797;
     }
 
     .member-profile-box .profile-img{
