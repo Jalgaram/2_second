@@ -7,7 +7,98 @@
         height: auto;
     }
 
-   
+    #profile > .member-profile{
+        width: 78vw;
+        margin: 0 auto;
+        row-gap: 3.147vh;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #profile > .member-profile li{
+        margin: 1% 6.5%;
+    }
+    #profile > .member-profile li img{
+        width: 16vw;
+    }
+
+    .riize-textbox p, 
+    .briize-textbox p{
+        line-height: 4.5vh;
+    }
+
+    .member-profile-box{
+        height: auto;
+        padding: 3.147vh 0;
+    }
+    .member-profile-box h2{
+        font-size: 6.5vw;;
+    }
+
+    .member-profile-box .profile-img{
+        width: 32vw;
+    }
+
+    .member-profile-box div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 7%;
+    }
+
+    .member-profile-box .profile-table th,td{
+        font-size: 1.5vw;
+    }
+    .member-profile-box .profile-table td span{
+        font-size: 1.1vw;
+    }
+
+    .member-profile-box .table1{
+        margin-top: 4.5vh;
+        
+    }
+    .member-profile-box .table1 th{
+        width: 13vw;
+        text-align: center;
+        border-bottom: none;
+        background-color: #f3f2f2;
+    }
+    .member-profile-box .table1 td{
+        border-bottom: none;
+    }
+    
+    .member-profile-box .table1 td:not(:first-child){
+        width: 45vw;
+        padding: 2.098vh 1.04vw;
+    }
+
+    .member-profile-box .table2{
+        margin: 0;
+     }
+
+     .member-profile-box .table2 td:not(:first-child){
+        width: 45vw;
+        padding: 2.098vh 1.04vw;
+    }
+
+    .shotaro-box .sign-img,
+    .eunseok-box .sign-img{
+        right: 3%;
+        bottom: -1%;
+    }
+
+    .wonbin-box .sign-img{
+        right: 2.5%;
+        bottom: 0%;
+    }
+
+    .sungchan-box .sign-img,
+    .sohee-box .sign-img,
+    .anton-box .sign-img{
+        right: 3%;
+        bottom: -0.5%;
+    }
 }
 
 /* 601px ~ 1024px */
@@ -16,21 +107,98 @@
         max-width: 1024px;
         height: auto;
     }
+    
+    #profile > .member-profile{
+        width: 78vw;
+        margin: 0 auto;
+        row-gap: 3.147vh;
+        display: flex;
+        flex-flow: row wrap;
+    }
 
-    .shotaro-box,
-    .eunseok-box,
-    .sungchan-box,
-    .wonbin-box,
-    .sohee-box,
-    .anton-box{
+    #profile > .member-profile li{
+        margin: 1% 6.5%;
+    }
+    #profile > .member-profile li img{
+        width: 16vw;
+    }
+
+    .riize-textbox p, 
+    .briize-textbox p{
+        line-height: 4.5vh;
+    }
+
+    .member-profile-box{
         height: auto;
+        padding: 3.147vh 0;
+    }
+    .member-profile-box h2{
+        font-size: 6.5vw;;
+    }
+
+    .member-profile-box .profile-img{
+        width: 32vw;
+    }
+
+    .member-profile-box div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 7%;
+    }
+
+    .member-profile-box .profile-table th,td{
+        font-size: 1.5vw;
+    }
+    .member-profile-box .profile-table td span{
+        font-size: 1.1vw;
+    }
+
+    .member-profile-box .table1{
+        margin-top: 4.5vh;
+        
+    }
+    .member-profile-box .table1 th{
+        width: 13vw;
+        text-align: center;
+        border-bottom: none;
+        background-color: #f3f2f2;
+    }
+    .member-profile-box .table1 td{
+        border-bottom: none;
+    }
+    
+    .member-profile-box .table1 td:not(:first-child){
+        width: 45vw;
+        padding: 2.098vh 1.04vw;
+    }
+
+    .member-profile-box .table2{
+        margin: 0;
+     }
+
+     .member-profile-box .table2 td:not(:first-child){
+        width: 45vw;
+        padding: 2.098vh 1.04vw;
+    }
+
+    .shotaro-box .sign-img,
+    .eunseok-box .sign-img{
+        right: 3%;
+        bottom: -1%;
+    }
+
+    .wonbin-box .sign-img{
+        right: 2.5%;
+        bottom: 0%;
     }
 
     .sungchan-box .sign-img,
     .sohee-box .sign-img,
     .anton-box .sign-img{
         right: 3%;
-        bottom: 0%;
+        bottom: -0.5%;
     }
 }
 
@@ -41,6 +209,11 @@
         height: auto;
     }
 
+    .riize-textbox p, 
+    .briize-textbox p{
+    line-height: 6vh;
+    }
+
     .member-profile-box{
         height: auto;
     }
@@ -49,6 +222,7 @@
         width: 26.041vw;
         height: auto;
     }
+
     .member-profile-box .sign-img{
         width: 23.4375vw;
         height: auto;
@@ -59,6 +233,13 @@
     .anton-box .sign-img{
         right: 3%;
         bottom: 0%;
+    }
+
+    .member-profile-box .profile-img{
+        width: 26.041vw;
+        height: auto;
+        box-shadow: 1.04vw 0.5vh 1.04vw #979797;
+        cursor: pointer;
     }
 }
 
